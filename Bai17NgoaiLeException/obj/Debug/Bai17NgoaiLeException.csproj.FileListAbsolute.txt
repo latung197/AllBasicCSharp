@@ -1,0 +1,6 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai17NgoaiLeException\bin\Debug\Bai17NgoaiLeException.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai17NgoaiLeException\bin\Debug\Bai17NgoaiLeException.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai17NgoaiLeException\bin\Debug\Bai17NgoaiLeException.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai17NgoaiLeException\obj\Debug\Bai17NgoaiLeException.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai17NgoaiLeException\obj\Debug\Bai17NgoaiLeException.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai17NgoaiLeException\obj\Debug\Bai17NgoaiLeException.pdb

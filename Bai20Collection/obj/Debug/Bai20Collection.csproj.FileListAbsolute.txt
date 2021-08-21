@@ -1,0 +1,6 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai20Collection\bin\Debug\Bai20Collection.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai20Collection\bin\Debug\Bai20Collection.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai20Collection\bin\Debug\Bai20Collection.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai20Collection\obj\Debug\Bai20Collection.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai20Collection\obj\Debug\Bai20Collection.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai20Collection\obj\Debug\Bai20Collection.pdb

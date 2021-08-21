@@ -1,0 +1,6 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai26Atribute\bin\Debug\Bai26Atribute.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai26Atribute\bin\Debug\Bai26Atribute.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai26Atribute\bin\Debug\Bai26Atribute.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai26Atribute\obj\Debug\Bai26Atribute.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai26Atribute\obj\Debug\Bai26Atribute.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai26Atribute\obj\Debug\Bai26Atribute.pdb

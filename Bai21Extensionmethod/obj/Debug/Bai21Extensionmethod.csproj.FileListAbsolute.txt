@@ -1,0 +1,6 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai21Extensionmethod\bin\Debug\Bai21Extensionmethod.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai21Extensionmethod\bin\Debug\Bai21Extensionmethod.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai21Extensionmethod\bin\Debug\Bai21Extensionmethod.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai21Extensionmethod\obj\Debug\Bai21Extensionmethod.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai21Extensionmethod\obj\Debug\Bai21Extensionmethod.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai21Extensionmethod\obj\Debug\Bai21Extensionmethod.pdb

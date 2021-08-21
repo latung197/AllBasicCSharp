@@ -1,0 +1,7 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai18FileCoBan\bin\Debug\Bai18FileCoBan.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai18FileCoBan\bin\Debug\Bai18FileCoBan.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai18FileCoBan\bin\Debug\Bai18FileCoBan.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai18FileCoBan\obj\Debug\Bai18FileCoBan.csprojAssemblyReference.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai18FileCoBan\obj\Debug\Bai18FileCoBan.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai18FileCoBan\obj\Debug\Bai18FileCoBan.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai18FileCoBan\obj\Debug\Bai18FileCoBan.pdb

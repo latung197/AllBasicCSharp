@@ -1,0 +1,6 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai15InterfaceAbstract\bin\Debug\Bai15InterfaceAbstract.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai15InterfaceAbstract\bin\Debug\Bai15InterfaceAbstract.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai15InterfaceAbstract\bin\Debug\Bai15InterfaceAbstract.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai15InterfaceAbstract\obj\Debug\Bai15InterfaceAbstract.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai15InterfaceAbstract\obj\Debug\Bai15InterfaceAbstract.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai15InterfaceAbstract\obj\Debug\Bai15InterfaceAbstract.pdb

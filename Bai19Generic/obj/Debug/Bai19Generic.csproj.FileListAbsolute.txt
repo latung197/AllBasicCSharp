@@ -1,0 +1,6 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai19Generic\bin\Debug\Bai19Generic.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai19Generic\bin\Debug\Bai19Generic.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai19Generic\bin\Debug\Bai19Generic.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai19Generic\obj\Debug\Bai19Generic.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai19Generic\obj\Debug\Bai19Generic.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai19Generic\obj\Debug\Bai19Generic.pdb

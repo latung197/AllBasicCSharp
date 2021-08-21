@@ -1,0 +1,2 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai14TinhKeThua\obj\Debug\Bai14TinhKeThua.csprojAssemblyReference.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai14TinhKeThua\obj\Debug\Bai14TinhKeThua.csproj.CoreCompileInputs.cache

@@ -1,0 +1,7 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai28Networking\bin\Debug\Bai28Networking.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai28Networking\bin\Debug\Bai28Networking.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai28Networking\bin\Debug\Bai28Networking.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai28Networking\obj\Debug\Bai28Networking.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai28Networking\obj\Debug\Bai28Networking.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai28Networking\obj\Debug\Bai28Networking.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai28Networking\obj\Debug\Bai28Networking.csprojAssemblyReference.cache

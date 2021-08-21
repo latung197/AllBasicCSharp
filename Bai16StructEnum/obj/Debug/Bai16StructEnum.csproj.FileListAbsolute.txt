@@ -1,0 +1,6 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai16StructEnum\bin\Debug\Bai16StructEnum.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai16StructEnum\bin\Debug\Bai16StructEnum.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai16StructEnum\bin\Debug\Bai16StructEnum.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai16StructEnum\obj\Debug\Bai16StructEnum.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai16StructEnum\obj\Debug\Bai16StructEnum.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai16StructEnum\obj\Debug\Bai16StructEnum.pdb

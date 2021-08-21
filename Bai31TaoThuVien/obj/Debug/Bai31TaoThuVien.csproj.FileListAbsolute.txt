@@ -1,0 +1,6 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai31TaoThuVien\bin\Debug\Bai31TaoThuVien.dll
+D:\TongHopKienThuc\AllBasicCSharp\Bai31TaoThuVien\bin\Debug\Bai31TaoThuVien.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai31TaoThuVien\obj\Debug\Bai31TaoThuVien.csprojAssemblyReference.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai31TaoThuVien\obj\Debug\Bai31TaoThuVien.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai31TaoThuVien\obj\Debug\Bai31TaoThuVien.dll
+D:\TongHopKienThuc\AllBasicCSharp\Bai31TaoThuVien\obj\Debug\Bai31TaoThuVien.pdb

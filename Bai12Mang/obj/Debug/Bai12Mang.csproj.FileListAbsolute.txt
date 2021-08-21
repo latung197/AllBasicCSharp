@@ -1,0 +1,7 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai12Mang\bin\Debug\Bai12Mang.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai12Mang\bin\Debug\Bai12Mang.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai12Mang\bin\Debug\Bai12Mang.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai12Mang\obj\Debug\Bai12Mang.csprojAssemblyReference.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai12Mang\obj\Debug\Bai12Mang.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai12Mang\obj\Debug\Bai12Mang.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai12Mang\obj\Debug\Bai12Mang.pdb

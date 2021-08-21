@@ -1,0 +1,6 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai25Type\bin\Debug\Bai25Type.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai25Type\bin\Debug\Bai25Type.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai25Type\bin\Debug\Bai25Type.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai25Type\obj\Debug\Bai25Type.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai25Type\obj\Debug\Bai25Type.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai25Type\obj\Debug\Bai25Type.pdb

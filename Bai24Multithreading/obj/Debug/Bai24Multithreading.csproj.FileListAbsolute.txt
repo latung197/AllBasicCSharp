@@ -1,0 +1,2 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai24Multithreading\obj\Debug\Bai24Multithreading.csprojAssemblyReference.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai24Multithreading\obj\Debug\Bai24Multithreading.csproj.CoreCompileInputs.cache

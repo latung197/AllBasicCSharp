@@ -1,0 +1,6 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai22ObservableCollection\bin\Debug\Bai22ObservableCollection.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai22ObservableCollection\bin\Debug\Bai22ObservableCollection.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai22ObservableCollection\bin\Debug\Bai22ObservableCollection.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai22ObservableCollection\obj\Debug\Bai22ObservableCollection.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai22ObservableCollection\obj\Debug\Bai22ObservableCollection.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai22ObservableCollection\obj\Debug\Bai22ObservableCollection.pdb

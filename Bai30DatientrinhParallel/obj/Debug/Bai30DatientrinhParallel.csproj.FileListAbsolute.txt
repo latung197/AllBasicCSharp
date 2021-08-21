@@ -1,0 +1,7 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai30DatientrinhParallel\bin\Debug\Bai30DatientrinhParallel.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai30DatientrinhParallel\bin\Debug\Bai30DatientrinhParallel.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai30DatientrinhParallel\bin\Debug\Bai30DatientrinhParallel.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai30DatientrinhParallel\obj\Debug\Bai30DatientrinhParallel.csprojAssemblyReference.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai30DatientrinhParallel\obj\Debug\Bai30DatientrinhParallel.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai30DatientrinhParallel\obj\Debug\Bai30DatientrinhParallel.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai30DatientrinhParallel\obj\Debug\Bai30DatientrinhParallel.pdb
