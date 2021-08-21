@@ -1,0 +1,7 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai7KieuVoDanhVaDynamic\bin\Debug\Bai7KieuVoDanhVaDynamic.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai7KieuVoDanhVaDynamic\bin\Debug\Bai7KieuVoDanhVaDynamic.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai7KieuVoDanhVaDynamic\bin\Debug\Bai7KieuVoDanhVaDynamic.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai7KieuVoDanhVaDynamic\obj\Debug\Bai7KieuVoDanhVaDynamic.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai7KieuVoDanhVaDynamic\obj\Debug\Bai7KieuVoDanhVaDynamic.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai7KieuVoDanhVaDynamic\obj\Debug\Bai7KieuVoDanhVaDynamic.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai7KieuVoDanhVaDynamic\obj\Debug\Bai7KieuVoDanhVaDynamic.csprojAssemblyReference.cache

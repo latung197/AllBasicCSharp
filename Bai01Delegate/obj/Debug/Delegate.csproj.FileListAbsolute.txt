@@ -1,0 +1,7 @@
+D:\TongHopKienThuc\AllBasicCSharp\Delegate\bin\Debug\Delegate.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Delegate\bin\Debug\Delegate.exe
+D:\TongHopKienThuc\AllBasicCSharp\Delegate\bin\Debug\Delegate.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Delegate\obj\Debug\Delegate.csprojAssemblyReference.cache
+D:\TongHopKienThuc\AllBasicCSharp\Delegate\obj\Debug\Delegate.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Delegate\obj\Debug\Delegate.exe
+D:\TongHopKienThuc\AllBasicCSharp\Delegate\obj\Debug\Delegate.pdb

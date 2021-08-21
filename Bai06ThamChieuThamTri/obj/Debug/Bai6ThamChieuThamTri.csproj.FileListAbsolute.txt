@@ -1,0 +1,6 @@
+D:\TongHopKienThuc\AllBasicCSharp\Ba6ThamChieuThamTri\bin\Debug\Ba6ThamChieuThamTri.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Ba6ThamChieuThamTri\bin\Debug\Ba6ThamChieuThamTri.exe
+D:\TongHopKienThuc\AllBasicCSharp\Ba6ThamChieuThamTri\bin\Debug\Ba6ThamChieuThamTri.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Ba6ThamChieuThamTri\obj\Debug\Bai6ThamChieuThamTri.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Ba6ThamChieuThamTri\obj\Debug\Ba6ThamChieuThamTri.exe
+D:\TongHopKienThuc\AllBasicCSharp\Ba6ThamChieuThamTri\obj\Debug\Ba6ThamChieuThamTri.pdb

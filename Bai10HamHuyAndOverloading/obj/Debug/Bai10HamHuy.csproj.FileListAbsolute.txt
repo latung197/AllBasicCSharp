@@ -1,0 +1,7 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai10HamHuy\bin\Debug\Bai10HamHuy.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai10HamHuy\bin\Debug\Bai10HamHuy.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai10HamHuy\bin\Debug\Bai10HamHuy.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai10HamHuy\obj\Debug\Bai10HamHuy.csprojAssemblyReference.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai10HamHuy\obj\Debug\Bai10HamHuy.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai10HamHuy\obj\Debug\Bai10HamHuy.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai10HamHuy\obj\Debug\Bai10HamHuy.pdb

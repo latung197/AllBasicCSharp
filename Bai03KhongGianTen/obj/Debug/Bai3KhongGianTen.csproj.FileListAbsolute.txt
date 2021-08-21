@@ -1,0 +1,7 @@
+D:\TongHopKienThuc\AllBasicCSharp\KhongGianTen\bin\Debug\KhongGianTen.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\KhongGianTen\bin\Debug\KhongGianTen.exe
+D:\TongHopKienThuc\AllBasicCSharp\KhongGianTen\bin\Debug\KhongGianTen.pdb
+D:\TongHopKienThuc\AllBasicCSharp\KhongGianTen\obj\Debug\Bai3KhongGianTen.csprojAssemblyReference.cache
+D:\TongHopKienThuc\AllBasicCSharp\KhongGianTen\obj\Debug\Bai3KhongGianTen.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\KhongGianTen\obj\Debug\KhongGianTen.exe
+D:\TongHopKienThuc\AllBasicCSharp\KhongGianTen\obj\Debug\KhongGianTen.pdb

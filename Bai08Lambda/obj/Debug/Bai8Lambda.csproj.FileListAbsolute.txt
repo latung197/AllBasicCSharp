@@ -1,0 +1,7 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai8Lambda\bin\Debug\Bai8Lambda.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai8Lambda\bin\Debug\Bai8Lambda.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai8Lambda\bin\Debug\Bai8Lambda.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai8Lambda\obj\Debug\Bai8Lambda.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai8Lambda\obj\Debug\Bai8Lambda.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai8Lambda\obj\Debug\Bai8Lambda.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai8Lambda\obj\Debug\Bai8Lambda.csprojAssemblyReference.cache

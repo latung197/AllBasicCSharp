@@ -1,0 +1,7 @@
+D:\TongHopKienThuc\AllBasicCSharp\ChiaFile\bin\Debug\ChiaFile.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\ChiaFile\bin\Debug\ChiaFile.exe
+D:\TongHopKienThuc\AllBasicCSharp\ChiaFile\bin\Debug\ChiaFile.pdb
+D:\TongHopKienThuc\AllBasicCSharp\ChiaFile\obj\Debug\Bai4ChiaFile.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\ChiaFile\obj\Debug\ChiaFile.exe
+D:\TongHopKienThuc\AllBasicCSharp\ChiaFile\obj\Debug\ChiaFile.pdb
+D:\TongHopKienThuc\AllBasicCSharp\ChiaFile\obj\Debug\Bai4ChiaFile.csprojAssemblyReference.cache

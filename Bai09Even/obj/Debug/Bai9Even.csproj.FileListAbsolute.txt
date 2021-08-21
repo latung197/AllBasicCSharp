@@ -1,0 +1,7 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai9Even\bin\Debug\Bai9Even.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai9Even\bin\Debug\Bai9Even.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai9Even\bin\Debug\Bai9Even.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai9Even\obj\Debug\Bai9Even.csprojAssemblyReference.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai9Even\obj\Debug\Bai9Even.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai9Even\obj\Debug\Bai9Even.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai9Even\obj\Debug\Bai9Even.pdb
