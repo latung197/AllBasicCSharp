@@ -1,0 +1,7 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai32NetworkHttpMessageHandler\bin\Debug\Bai32NetworkHttpMessageHandler.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai32NetworkHttpMessageHandler\bin\Debug\Bai32NetworkHttpMessageHandler.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai32NetworkHttpMessageHandler\bin\Debug\Bai32NetworkHttpMessageHandler.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai32NetworkHttpMessageHandler\obj\Debug\Bai32NetworkHttpMessageHandler.csprojAssemblyReference.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai32NetworkHttpMessageHandler\obj\Debug\Bai32NetworkHttpMessageHandler.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai32NetworkHttpMessageHandler\obj\Debug\Bai32NetworkHttpMessageHandler.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai32NetworkHttpMessageHandler\obj\Debug\Bai32NetworkHttpMessageHandler.pdb

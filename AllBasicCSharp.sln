@@ -67,6 +67,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai09Even", "Bai09Even\Bai0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai10HamHuyAndOverloading", "Bai10HamHuyAndOverloading\Bai10HamHuyAndOverloading.csproj", "{825DEE5C-09C8-46F2-A54B-EDC0DA1A8D4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai32NetworkHttpMessageHandler", "Bai32NetworkHttpMessageHandler\Bai32NetworkHttpMessageHandler.csproj", "{1F4D77D5-B62D-4913-A4F7-D5ABD1617ED6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai33NetworkHttplistener", "Bai33NetworkHttplistener\Bai33NetworkHttplistener.csproj", "{FFD12BFB-692C-4397-9868-03597B35BDDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai34EntityFramework", "Bai34EntityFramework\Bai34EntityFramework.csproj", "{CC1F8073-05BF-4617-A495-21A3A99F8AC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +207,18 @@ Global
 		{825DEE5C-09C8-46F2-A54B-EDC0DA1A8D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{825DEE5C-09C8-46F2-A54B-EDC0DA1A8D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{825DEE5C-09C8-46F2-A54B-EDC0DA1A8D4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F4D77D5-B62D-4913-A4F7-D5ABD1617ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F4D77D5-B62D-4913-A4F7-D5ABD1617ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F4D77D5-B62D-4913-A4F7-D5ABD1617ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F4D77D5-B62D-4913-A4F7-D5ABD1617ED6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFD12BFB-692C-4397-9868-03597B35BDDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFD12BFB-692C-4397-9868-03597B35BDDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFD12BFB-692C-4397-9868-03597B35BDDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFD12BFB-692C-4397-9868-03597B35BDDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC1F8073-05BF-4617-A495-21A3A99F8AC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC1F8073-05BF-4617-A495-21A3A99F8AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC1F8073-05BF-4617-A495-21A3A99F8AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC1F8073-05BF-4617-A495-21A3A99F8AC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

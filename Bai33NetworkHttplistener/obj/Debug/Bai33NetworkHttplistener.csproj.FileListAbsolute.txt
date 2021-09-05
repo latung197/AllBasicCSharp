@@ -1,0 +1,7 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai33NetworkHttplistener\bin\Debug\Bai33NetworkHttplistener.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai33NetworkHttplistener\bin\Debug\Bai33NetworkHttplistener.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai33NetworkHttplistener\bin\Debug\Bai33NetworkHttplistener.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai33NetworkHttplistener\obj\Debug\Bai33NetworkHttplistener.csprojAssemblyReference.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai33NetworkHttplistener\obj\Debug\Bai33NetworkHttplistener.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai33NetworkHttplistener\obj\Debug\Bai33NetworkHttplistener.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai33NetworkHttplistener\obj\Debug\Bai33NetworkHttplistener.pdb
