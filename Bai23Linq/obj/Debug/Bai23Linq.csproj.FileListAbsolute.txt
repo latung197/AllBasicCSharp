@@ -4,3 +4,4 @@ D:\TongHopKienThuc\AllBasicCSharp\Bai23Linq\bin\Debug\Bai23Linq.pdb
 D:\TongHopKienThuc\AllBasicCSharp\Bai23Linq\obj\Debug\Bai23Linq.csproj.CoreCompileInputs.cache
 D:\TongHopKienThuc\AllBasicCSharp\Bai23Linq\obj\Debug\Bai23Linq.exe
 D:\TongHopKienThuc\AllBasicCSharp\Bai23Linq\obj\Debug\Bai23Linq.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai23Linq\obj\Debug\Bai23Linq.csprojAssemblyReference.cache

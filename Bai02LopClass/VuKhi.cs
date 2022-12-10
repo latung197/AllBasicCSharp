@@ -19,7 +19,7 @@ namespace LopClass
             get
             {
                 Console.WriteLine("Vua lay du lieu tu thuoc tinh Name");
-                return "Het";
+                return "Hết";
             }
         }
         public VuKhi()

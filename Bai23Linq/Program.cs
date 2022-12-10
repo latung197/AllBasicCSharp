@@ -41,13 +41,13 @@ namespace Bai23Linq
             ID = id; Name = name; Price = price; Colors = colors; Brand = brand;
         }
         // Lấy chuỗi thông tin sản phẳm gồm ID, Name, Price
-         public override string ToString()
-           => $"{ID,3} {Name,12} {Price,5} {Brand,2} {string.Join(",", Colors)}";
+        public override string ToString()
+          => $"{ID,3} {Name,12} {Price,5} {Brand,2} {string.Join(",", Colors)}";
     }
 
     public class ThuongHieu
     {
-        public int ID { get;  set; }
+        public int ID { get; set; }
         public string Name { get; set; }
     }
 
@@ -186,7 +186,8 @@ namespace Bai23Linq
                 Console.WriteLine(p);
             }
 
-            var query3 = sanPhams.Where((p) => {
+            var query3 = sanPhams.Where((p) =>
+            {
 
                 return (p.Price >= 200 && p.Price <= 300 && p.ID == 4);
             });
@@ -198,8 +199,15 @@ namespace Bai23Linq
 
             int[] dsSo = { 2, 3, 4, 5, 6, 32, 53, 23, 65, 3, 432 };
 
-            Console.WriteLine(dsSo.Where((x) => { return x % 2 != 0; }).Max());
-
+            Console.WriteLine(dsSo.Where((x) => { return x % 2 != 0; }).Min());
+            var dsso1 = dsSo.Where((p) =>
+            {
+                return p % 2 == 0;
+            });
+            foreach (int x in dsSo)
+            {
+                Console.WriteLine("-" + x);
+            }
             Console.WriteLine(sanPhams.Average((p) => { return p.Price; }));
             // left join 
             var query4 = sanPhams.Join(thuongHieus, p => p.Brand, q => q.ID, (p, q) => { return new { ten = p.Name, thuonghieu = q.Name }; });
@@ -235,7 +243,7 @@ namespace Bai23Linq
             sanPhams.SelectMany(p => p.Colors).ToList().ForEach((p) => { Console.WriteLine(p); });
             Console.WriteLine("-----------------------");
 
-            // Singer : Kiểm tra xem có chỉ 1 phần tử thỏa mãn logic thì trả về phần tử đó-> nếu không có hoặc có nhiều hơn 1 => lỗi
+            // Single : Kiểm tra xem có chỉ 1 phần tử thỏa mãn logic thì trả về phần tử đó-> nếu không có hoặc có nhiều hơn 1 => lỗi
             var kq = sanPhams.Single((p) => { return p.ID == 3; });
             Console.WriteLine(kq.Name);
             // SingleOrDefault : Kiểm tra xem phần tử thóa mãn logic nào đó nếu 0 có trả về null nếu nhiều hơn 1 thỏa mãn => Lỗi
@@ -252,7 +260,7 @@ namespace Bai23Linq
 
             // In ra tên sản phầm, tên thương hiệu, lấy ra các sản phẩm từ 300 đến 400 sắp xép giảm dần theo giá.
 
-            sanPhams.Where((p) => { return p.Price >= 200 && p.Price <= 400; }).OrderByDescending(p => p.Price).Join(thuongHieus, p => p.Brand, q => q.ID, (sp, th) => { return new { tensp = sp.Name, gia = sp.Price, thuonghieu = th.Name }; }).ToList().ForEach(p=> Console.WriteLine(p));
+            sanPhams.Where((p) => { return p.Price >= 200 && p.Price <= 400; }).OrderByDescending(p => p.Price).Join(thuongHieus, p => p.Brand, q => q.ID, (sp, th) => { return new { tensp = sp.Name, gia = sp.Price, thuonghieu = th.Name }; }).ToList().ForEach(p => Console.WriteLine(p));
             Console.WriteLine("-----------------------");
 
             /*
@@ -262,12 +270,14 @@ namespace Bai23Linq
              */
 
             var q4 = from p in sanPhams
-                     where  p.Price == 300
+                     where p.Price == 300
                      select $"";
             q4.ToList().ForEach(p => Console.WriteLine(p));
+
+
             Console.ReadLine();
 
-           
+
         }
     }
 }

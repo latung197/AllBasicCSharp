@@ -30,7 +30,7 @@ namespace Bai18FileCoBan
                 Console.WriteLine($"Thu muc da xoa");
             }
             // Lay tat ca ten cac file trong thu muc nao do vd: C:\Users\Admin\Downloads\ITG WORK
-            var files = Directory.GetFiles(@"C:\Users\Admin\Downloads\ITG WORK");
+            var files = Directory.GetFiles(@"C:\Users\Admin\Desktop\ITG WORK");
             foreach(var file in files)
             {
                 Console.WriteLine(file);

@@ -96,6 +96,8 @@ namespace Delegate
             showLog += program.Hoten;
             showLog.Invoke("Xin chao Viet Nam");
 
+            tinhCongTru += program.TinhTong;
+
             program.showinfo = program.Info;
             program.showinfo.Invoke("Action");
             program.TinhTich = program.TinhTichAB;

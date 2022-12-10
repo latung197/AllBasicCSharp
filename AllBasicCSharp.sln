@@ -73,6 +73,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai33NetworkHttplistener", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai34EntityFramework", "Bai34EntityFramework\Bai34EntityFramework.csproj", "{CC1F8073-05BF-4617-A495-21A3A99F8AC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai35", "Bai35\Bai35.csproj", "{319D5BED-E893-4CD0-9B4D-5CA26463FBA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -219,6 +221,10 @@ Global
 		{CC1F8073-05BF-4617-A495-21A3A99F8AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC1F8073-05BF-4617-A495-21A3A99F8AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC1F8073-05BF-4617-A495-21A3A99F8AC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{319D5BED-E893-4CD0-9B4D-5CA26463FBA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{319D5BED-E893-4CD0-9B4D-5CA26463FBA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{319D5BED-E893-4CD0-9B4D-5CA26463FBA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{319D5BED-E893-4CD0-9B4D-5CA26463FBA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

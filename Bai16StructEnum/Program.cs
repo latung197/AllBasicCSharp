@@ -20,6 +20,7 @@ namespace Bai16StructEnum
             
             // Phương thức tạo constructer
             // Phương thức tạo bắt buộc phải gán giá trị <> class thì không
+
             public Product (string _name, double _price)
             {
                 this.Name = _name;

@@ -46,7 +46,7 @@ namespace Bai14TinhKeThua
         }
     }
 
-    // Chiển kiểu giữa các lớp cơ sở và lớp kế thừa.
+    // Chển kiểu giữa các lớp cơ sở và lớp kế thừa.
     class A { };
     class B : A { };
     class C : B { };
@@ -60,7 +60,7 @@ namespace Bai14TinhKeThua
 
             A a;
             B b;
-            C c;
+            C c1;
             a = new B();
             a = new C();
             b = new C();

@@ -42,10 +42,18 @@ namespace Bai19Generic
             b = z;
         }
 
+        public static void doigiatri( ref double a, ref double b)
+        {
+            a = a + 3;
+            b = b + 10;
+        }
+
         static void Main(string[] args)
         {
             double a = 5;
             double b = 10;
+            Program.doigiatri(ref a, ref b);
+
             Console.WriteLine($"a: {a}---- b:{b}");
             Program.Swap(ref a, ref b);
             Console.WriteLine($"a: {a}---- b:{b}");
@@ -78,7 +86,7 @@ namespace Bai19Generic
         }
         public void inThongTin()
         {
-            Console.WriteLine("Thong tin san pham: "+this.id +"$");
+            Console.WriteLine("Thong tin san pham: " + this.id + "$");
         }
     }
 

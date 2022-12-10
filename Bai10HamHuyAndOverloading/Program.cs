@@ -56,7 +56,7 @@ namespace Bai10HamHuy
         public static Vector operator +(Vector a, Vector b)
         {
             //return new Vector(a.x + b.x, a.y + b.y);
-            double sx = a.x = b.x;
+            double sx = a.x + b.x;
             double sy = a.y + b.y;
             Vector vector = new Vector(sx, sy);
             return vector;
@@ -128,20 +128,20 @@ namespace Bai10HamHuy
 
         static void Main(string[] args)
         {
-            SqlConnection sqlConnection = new SqlConnection("chuoi ket noi");
-            sqlConnection.Open();
-            SqlCommand sqlCommand = new SqlCommand("select * from ", sqlConnection);
-            using (DataSet ds = new DataSet())
-            {
+            //SqlConnection sqlConnection = new SqlConnection("chuoi ket noi");
+            //sqlConnecti0on.Open();
+            //SqlCommand sqlCommand = new SqlCommand("select * from ", sqlConnection);
+            //using (DataSet ds = new DataSet())
+            //{
 
-            };
+            //};
 
             VuKhi.In();
 
             Vector vector1 = new Vector(2, 3);
             Vector vector2 = new Vector(5, 11);
             Vector v = vector1 + vector2;
-            Console.WriteLine(v.x + "");
+            Console.WriteLine(v.x + "GIA TRI" + v.y);
 
 
             // Indexer

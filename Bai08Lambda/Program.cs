@@ -48,18 +48,20 @@ namespace Bai8Lambda
             var tich = TinhTich.Invoke(10, 20);
             Console.WriteLine("Kế quả phép nhân: " + tich);
 
-            int [] mangso = { 3, 4, 5, 7, 12, 43, 65, 7, 988, 53, 3, 12, 42 };
-            var kqselect = mangso.Select((int x) => 
+            int[] mangso = { 3, 4, 5, 7, 12, 43, 65, 7, 988, 53, 3, 12, 42 };
+            var kqselect = mangso.Select((int x) =>
             {
-                return x/2;
-            });
-            
-            foreach(var inkqselect in kqselect)
+                x = 100;
+                return x / 2;
+            }).Where((int x) => { if (x > 10) { return true; } else { return false; } });
+
+            foreach (var inkqselect in kqselect)
             {
-                Console.WriteLine(""+inkqselect);
+                Console.WriteLine("" + inkqselect);
             }
 
-            var kqwhere = mangso.Where((int x)=> {
+            var kqwhere = mangso.Where((int x) =>
+            {
                 if (x > 10)
                 {
                     return true;
@@ -68,7 +70,7 @@ namespace Bai8Lambda
                 {
                     return false;
                 }
-            });
+            }).Select((int x) => { return x * x; });
 
             Console.WriteLine("Kết quả Where ");
             foreach (var inkqselect in kqwhere)
@@ -165,6 +167,32 @@ namespace Bai8Lambda
                 Console.WriteLine("" + z);
             }
 
+            // 20220828
+            int[] list1 = { 1, 2, 3, 4, 5, 6, 7, 8, 23, 1, 2, 4, 6, 13, 7, 12 };
+            Func<int, int, int> func = null;
+            func = (int a, int b) =>
+                {
+                    return a + b;
+                };
+            Console.WriteLine("Tong hai so la: " + func.Invoke(20, 100));
+
+            var list2 = list1.Where((int x) =>
+            {
+                if (x % 4 == 2)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            });
+            foreach (var a in list2)
+            {
+                Console.WriteLine("ds list 2" + a);
+            }
+
+            list2.ToList().ForEach((t) => { if (t % 2 == 0) { Console.WriteLine("" + t); } });
             Console.ReadKey();
         }
     }

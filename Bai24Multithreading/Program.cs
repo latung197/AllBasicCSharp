@@ -28,7 +28,7 @@ namespace Bai24Multithreading
             Console.WriteLine(mes + "End");
 
             /* 
-            - Từ khóa Look : Thực hiện khóa bên _str => Biến chỉ được phép sử dụng trong luồng này khi nào luồng này chạy xong thì       luồng khác với được phép tiếp tục sử dụng.
+            - Từ khóa Look : Thực hiện khóa biến _str => Biến chỉ được phép sử dụng trong luồng này khi nào luồng này chạy xong thì       luồng khác với được phép tiếp tục sử dụng.
                 Sử dụng từ khóa look để tránh hiện tượng khi luồng A đang sử biên _str dụng thì luồn B nhảy vào sử dụng biến _str.
 
             string _str="Tung";

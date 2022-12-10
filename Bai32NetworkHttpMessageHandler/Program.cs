@@ -19,7 +19,7 @@ namespace Bai32NetworkHttpMessageHandler
          */
          public static async Task<string> GetData()
         {
-
+                
             var url = "https://postman-echo.com/post";
 
             var httpCliet = new HttpClient();

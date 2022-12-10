@@ -28,7 +28,7 @@ namespace Bai15InterfaceAbstract
         // Để gọi phương thức của lớp cha ta sử dụng từ khóa base.ProductInfo();
         public override void ProductInfo()
         {
-            base.ProductInfo();
+            base.ProductInfo();// base. là phương thức gọi đến phương thức khi chưa bị ghi đè ở lớp cha
             Console.WriteLine("Day la In cua Iphone");
         }
         public void Test() => ProductInfo();
@@ -37,7 +37,10 @@ namespace Bai15InterfaceAbstract
     /* Phan 2 : 
      * Phương thức ảo: Chỉ dùng để làm phương thức cơ sở cho các lớp khác kế thừa.
         - Lớp này không được sử dụng để khởi tạo đối tượng.
-        - Lớp ảo chỉ khai báo các phương thức ảo và các lớp kế thừa PHẢI TRIỂN KHAI các phương thức của nó.*/
+        - Lớp ảo chỉ khai báo các phương thức ảo và các lớp kế thừa PHẢI TRIỂN KHAI các phương thức của nó.
+        --> Khi tạo thư viện cập nhật tất cả các lớp con kế thừa sẽ phải cập nhật
+         */
+        
 
     public abstract class product1
     {
