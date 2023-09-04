@@ -6,6 +6,15 @@ using System.Threading.Tasks;
 
 namespace Ba6ThamChieuThamTri
 {
+    public class student
+    {
+        public string Name { get; set; }
+        public student(string student)
+        {
+            this.Name = student;
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
@@ -25,6 +34,15 @@ namespace Ba6ThamChieuThamTri
                 => Giá trị của a là : "Le Van Tung" 
                 => b = a <=> gán địa chỉ ô nhớ trỏ đến của b = a .
              */
+
+
+
+        student student = new student("Le Van Tung");
+            student b ;
+            b = student;
+            b.Name = "AAAAAAA";
+            Console.WriteLine(student.Name);
+            Console.ReadKey();
         }
     }
 }

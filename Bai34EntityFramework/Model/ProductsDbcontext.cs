@@ -7,7 +7,14 @@ using System.Data.Entity;
 
 namespace Bai34EntityFramework.Model
 {
-    class ProductsDbcontext: DbContext
+    public class ProductsDbcontext: DbContext
     {
+
+        private const string connstring = "Data Source=.;Initial Catalog=TungShop;Integrated Security=false;User ID=sa;Password=12345678;MultipleActiveResultSets=true";
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

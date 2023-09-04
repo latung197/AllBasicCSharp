@@ -129,7 +129,7 @@ namespace Bai29ThuVienDependenceInject
             }
              */
 
-            var
+            
 
             Console.WriteLine("AAAAA");
             Console.ReadKey();

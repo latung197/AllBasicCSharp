@@ -6,28 +6,9 @@ using System.Threading.Tasks;
 
 namespace Bai23Linq
 {
-    public class Product
-    {
-        public int ID { set; get; }
-        public string Name { set; get; }         // tên
-        public double Price { set; get; }        // giá
-        public string[] Colors { set; get; }     // cá màu
-        public int Brand { set; get; }           // ID Nhãn hiệu, hãng
-        public Product(int id, string name, double price, string[] colors, int brand)
-        {
-            ID = id; Name = name; Price = price; Colors = colors; Brand = brand;
-        }
-        // Lấy chuỗi thông tin sản phẳm gồm ID, Name, Price
-        override public string ToString()
-           => $"{ID,3} {Name,12} {Price,5} {Brand,2} {string.Join(",", Colors)}";
+ 
 
-    }
 
-    public class Brand
-    {
-        public string Name { set; get; }
-        public int ID { set; get; }
-    }
 
     public class SanPham
     {
@@ -143,10 +124,8 @@ namespace Bai23Linq
             Console.ReadKey();
             */
             #endregion 
-
             SanPham sanPham = new SanPham(1, "Iphone", 10000, new string[] { "sanh", "Do" }, 1000);
             Console.WriteLine(sanPham);
-
 
             List<ThuongHieu> thuongHieus = new List<ThuongHieu>()
             {
@@ -166,11 +145,13 @@ namespace Bai23Linq
                     new SanPham(7, "Tủ áo",      600, new string[] {"Trắng"},               3)
             };
 
-            // Lay ra san pham co gia bang 400
+            // Lay ra san pham co gia bang 400, 500
 
             var query1 = from p in sanPhams
-                         where p.Price == 400
+                         where p.Price == 1000
                          select p;
+
+            var query11 = from p in sanPhams where p.Price == 500 select p;
 
             foreach (SanPham p in query1)
             {
@@ -180,6 +161,9 @@ namespace Bai23Linq
             var query2 = sanPhams.Select(
                 (p) => { return p.Name; }
                 );
+
+            var query22 = sanPhams.Select(
+                (p) => { return p.Name; });
 
             foreach (var p in query2)
             {
@@ -192,6 +176,10 @@ namespace Bai23Linq
                 return (p.Price >= 200 && p.Price <= 300 && p.ID == 4);
             });
 
+            var query33 = sanPhams.Where((p) =>
+            {
+                return p.Name.Contains("r");
+            });
             foreach (var p in query3)
             {
                 Console.WriteLine(p);
@@ -259,10 +247,8 @@ namespace Bai23Linq
             Console.WriteLine(kq3);
 
             // In ra tên sản phầm, tên thương hiệu, lấy ra các sản phẩm từ 300 đến 400 sắp xép giảm dần theo giá.
-
             sanPhams.Where((p) => { return p.Price >= 200 && p.Price <= 400; }).OrderByDescending(p => p.Price).Join(thuongHieus, p => p.Brand, q => q.ID, (sp, th) => { return new { tensp = sp.Name, gia = sp.Price, thuonghieu = th.Name }; }).ToList().ForEach(p => Console.WriteLine(p));
             Console.WriteLine("-----------------------");
-
             /*
              1: Cú pháp của LinQ:
              2: Xác định phần tử: from in IEnumerable
@@ -273,10 +259,7 @@ namespace Bai23Linq
                      where p.Price == 300
                      select $"";
             q4.ToList().ForEach(p => Console.WriteLine(p));
-
-
             Console.ReadLine();
-
 
         }
     }

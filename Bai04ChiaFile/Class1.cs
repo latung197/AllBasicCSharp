@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChiaFile
 {
-   partial class Class1
+    partial class Class1
     {
         public void In()
         {

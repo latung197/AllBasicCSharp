@@ -1,2 +1,7 @@
 D:\TongHopKienThuc\AllBasicCSharp\Bai14TinhKeThua\obj\Debug\Bai14TinhKeThua.csprojAssemblyReference.cache
 D:\TongHopKienThuc\AllBasicCSharp\Bai14TinhKeThua\obj\Debug\Bai14TinhKeThua.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai14TinhKeThua\bin\Debug\Bai14TinhKeThua.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai14TinhKeThua\bin\Debug\Bai14TinhKeThua.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai14TinhKeThua\bin\Debug\Bai14TinhKeThua.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai14TinhKeThua\obj\Debug\Bai14TinhKeThua.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai14TinhKeThua\obj\Debug\Bai14TinhKeThua.pdb

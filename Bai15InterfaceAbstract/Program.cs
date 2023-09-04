@@ -22,7 +22,8 @@ namespace Bai15InterfaceAbstract
     {
         public Iphone() => Price = 300;
         void abc() => Console.WriteLine("Bieu thuc ABC");
-        int TingTong(int a, int b) => a + b;
+        int TinhTong(int a, int b) => a + b;
+
 
         // Để ghi đè phương thức từ lớp cha ta thêm từ khóa khoa override
         // Để gọi phương thức của lớp cha ta sử dụng từ khóa base.ProductInfo();
@@ -66,7 +67,12 @@ namespace Bai15InterfaceAbstract
          double TinhChiVi();
     }
 
-    public class HinhChuNhat : IHinhHoc
+    public interface IToanHoc
+    {
+        void tenBaiToan();
+    }
+
+    public class HinhChuNhat : IHinhHoc,IToanHoc
     {
         public double x { get; set; }
         public double y { get; set; }
@@ -85,7 +91,12 @@ namespace Bai15InterfaceAbstract
         public double TinhDienTich()
         {
             return x * y;
-        }   
+        }
+
+        public void tenBaiToan()
+        {
+            throw new NotImplementedException();
+        }
     }
 
     public class HinhTron : IHinhHoc

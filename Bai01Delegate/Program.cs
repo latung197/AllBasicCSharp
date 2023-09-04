@@ -43,6 +43,8 @@ namespace Delegate
             Console.WriteLine(s);
         }
 
+        
+
         public void Hoten(string s)
         {
             Console.WriteLine("Hien thi ho ten");

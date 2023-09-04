@@ -33,7 +33,7 @@ namespace Bai19Generic
          VD: Đổi chỗ cho 2 giá trị có kiểu dữ liệu bất kỳ .
 
          - Từ khóa ref : Khai báo ref trước biến để thông báo truyền giá trị tham chiếu -> Tức là khi chạy xong phương thức thì giá trị a b truyền bên ngoài vào cũng thay đổi.
-         - Khi hàm cần lưu 1 giá trị trả về ta sử dụng return nếu nhiều hơn ta sử dụng từ khóa ref học out
+         - Khi hàm cần lưu 1 giá trị trả về ta sử dụng return nếu nhiều hơn ta sử dụng từ khóa ref hoặc out
         */
         public static void Swap<T>(ref T a, ref T b)
         {
