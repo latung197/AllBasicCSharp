@@ -1,0 +1,12 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai34EntityFramework\bin\Debug\Bai34EntityFramework.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai34EntityFramework\bin\Debug\Bai34EntityFramework.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai34EntityFramework\bin\Debug\Bai34EntityFramework.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai34EntityFramework\bin\Debug\EntityFramework.dll
+D:\TongHopKienThuc\AllBasicCSharp\Bai34EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+D:\TongHopKienThuc\AllBasicCSharp\Bai34EntityFramework\bin\Debug\EntityFramework.xml
+D:\TongHopKienThuc\AllBasicCSharp\Bai34EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+D:\TongHopKienThuc\AllBasicCSharp\Bai34EntityFramework\obj\Debug\Bai35EntityFramework.csprojAssemblyReference.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai34EntityFramework\obj\Debug\Bai35EntityFramework.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai34EntityFramework\obj\Debug\Bai35EntityFramework.csproj.CopyComplete
+D:\TongHopKienThuc\AllBasicCSharp\Bai34EntityFramework\obj\Debug\Bai34EntityFramework.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai34EntityFramework\obj\Debug\Bai34EntityFramework.pdb

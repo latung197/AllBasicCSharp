@@ -1,0 +1,7 @@
+D:\TongHopKienThuc\AllBasicCSharp\ChuyenSoThanhTru\bin\Debug\ChuyenSoThanhTru.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\ChuyenSoThanhTru\bin\Debug\ChuyenSoThanhTru.exe
+D:\TongHopKienThuc\AllBasicCSharp\ChuyenSoThanhTru\bin\Debug\ChuyenSoThanhTru.pdb
+D:\TongHopKienThuc\AllBasicCSharp\ChuyenSoThanhTru\obj\Debug\ChuyenSoThanhChu.csprojAssemblyReference.cache
+D:\TongHopKienThuc\AllBasicCSharp\ChuyenSoThanhTru\obj\Debug\ChuyenSoThanhChu.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\ChuyenSoThanhTru\obj\Debug\ChuyenSoThanhTru.exe
+D:\TongHopKienThuc\AllBasicCSharp\ChuyenSoThanhTru\obj\Debug\ChuyenSoThanhTru.pdb

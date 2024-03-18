@@ -1,0 +1,7 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai34Adonet\bin\Debug\Bai34Adonet.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai34Adonet\bin\Debug\Bai34Adonet.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai34Adonet\bin\Debug\Bai34Adonet.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai34Adonet\obj\Debug\Bai34Adonet.csprojAssemblyReference.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai34Adonet\obj\Debug\Bai34Adonet.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai34Adonet\obj\Debug\Bai34Adonet.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai34Adonet\obj\Debug\Bai34Adonet.pdb

@@ -1,0 +1,6 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai05LopLongNhau\bin\Debug\Bai5LopLongNhau.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai05LopLongNhau\bin\Debug\Bai5LopLongNhau.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai05LopLongNhau\bin\Debug\Bai5LopLongNhau.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai05LopLongNhau\obj\Debug\Bai05LopLongNhau.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai05LopLongNhau\obj\Debug\Bai5LopLongNhau.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai05LopLongNhau\obj\Debug\Bai5LopLongNhau.pdb

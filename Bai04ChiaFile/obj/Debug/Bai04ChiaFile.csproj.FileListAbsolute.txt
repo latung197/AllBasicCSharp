@@ -1,0 +1,6 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai04ChiaFile\bin\Debug\ChiaFile.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai04ChiaFile\bin\Debug\ChiaFile.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai04ChiaFile\bin\Debug\ChiaFile.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai04ChiaFile\obj\Debug\Bai04ChiaFile.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai04ChiaFile\obj\Debug\ChiaFile.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai04ChiaFile\obj\Debug\ChiaFile.pdb

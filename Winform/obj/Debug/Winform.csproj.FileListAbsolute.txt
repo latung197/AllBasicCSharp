@@ -1,0 +1,10 @@
+D:\TongHopKienThuc\AllBasicCSharp\Winform\bin\Debug\Winform.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Winform\bin\Debug\Winform.exe
+D:\TongHopKienThuc\AllBasicCSharp\Winform\bin\Debug\Winform.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Winform\obj\Debug\Winform.csprojAssemblyReference.cache
+D:\TongHopKienThuc\AllBasicCSharp\Winform\obj\Debug\Winform.Properties.Resources.resources
+D:\TongHopKienThuc\AllBasicCSharp\Winform\obj\Debug\Winform.csproj.GenerateResource.cache
+D:\TongHopKienThuc\AllBasicCSharp\Winform\obj\Debug\Winform.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Winform\obj\Debug\Winform.exe
+D:\TongHopKienThuc\AllBasicCSharp\Winform\obj\Debug\Winform.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Winform\obj\Debug\Winform.Form1.resources

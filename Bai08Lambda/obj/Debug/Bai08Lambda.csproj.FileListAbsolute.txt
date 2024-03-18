@@ -1,0 +1,6 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai08Lambda\bin\Debug\Bai8Lambda.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai08Lambda\bin\Debug\Bai8Lambda.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai08Lambda\bin\Debug\Bai8Lambda.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai08Lambda\obj\Debug\Bai08Lambda.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai08Lambda\obj\Debug\Bai8Lambda.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai08Lambda\obj\Debug\Bai8Lambda.pdb

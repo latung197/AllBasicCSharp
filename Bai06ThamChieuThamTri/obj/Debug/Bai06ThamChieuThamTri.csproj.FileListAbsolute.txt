@@ -1,0 +1,7 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai06ThamChieuThamTri\bin\Debug\Ba6ThamChieuThamTri.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai06ThamChieuThamTri\bin\Debug\Ba6ThamChieuThamTri.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai06ThamChieuThamTri\bin\Debug\Ba6ThamChieuThamTri.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai06ThamChieuThamTri\obj\Debug\Bai06ThamChieuThamTri.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai06ThamChieuThamTri\obj\Debug\Ba6ThamChieuThamTri.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai06ThamChieuThamTri\obj\Debug\Ba6ThamChieuThamTri.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai06ThamChieuThamTri\obj\Debug\Bai06ThamChieuThamTri.csprojAssemblyReference.cache

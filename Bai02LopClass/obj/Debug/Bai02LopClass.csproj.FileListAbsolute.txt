@@ -1,0 +1,6 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai02LopClass\bin\Debug\LopClass.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai02LopClass\bin\Debug\LopClass.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai02LopClass\bin\Debug\LopClass.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai02LopClass\obj\Debug\Bai02LopClass.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai02LopClass\obj\Debug\LopClass.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai02LopClass\obj\Debug\LopClass.pdb

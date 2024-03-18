@@ -1,0 +1,6 @@
+D:\TongHopKienThuc\AllBasicCSharp\Bai10HamHuyAndOverloading\bin\Debug\Bai10HamHuy.exe.config
+D:\TongHopKienThuc\AllBasicCSharp\Bai10HamHuyAndOverloading\bin\Debug\Bai10HamHuy.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai10HamHuyAndOverloading\bin\Debug\Bai10HamHuy.pdb
+D:\TongHopKienThuc\AllBasicCSharp\Bai10HamHuyAndOverloading\obj\Debug\Bai10HamHuyAndOverloading.csproj.CoreCompileInputs.cache
+D:\TongHopKienThuc\AllBasicCSharp\Bai10HamHuyAndOverloading\obj\Debug\Bai10HamHuy.exe
+D:\TongHopKienThuc\AllBasicCSharp\Bai10HamHuyAndOverloading\obj\Debug\Bai10HamHuy.pdb
