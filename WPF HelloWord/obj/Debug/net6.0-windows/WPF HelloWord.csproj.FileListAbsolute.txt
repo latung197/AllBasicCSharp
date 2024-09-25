@@ -1,0 +1,21 @@
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\bin\Debug\net6.0-windows\WPF HelloWord.exe
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\bin\Debug\net6.0-windows\WPF HelloWord.deps.json
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\bin\Debug\net6.0-windows\WPF HelloWord.runtimeconfig.json
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\bin\Debug\net6.0-windows\WPF HelloWord.dll
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\bin\Debug\net6.0-windows\WPF HelloWord.pdb
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\App.g.cs
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\WPF HelloWord_MarkupCompile.cache
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\WPF HelloWord_MarkupCompile.lref
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\MainWindow.baml
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\WPF HelloWord.g.resources
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\WPF HelloWord.GeneratedMSBuildEditorConfig.editorconfig
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\WPF HelloWord.AssemblyInfoInputs.cache
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\WPF HelloWord.AssemblyInfo.cs
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\WPF HelloWord.csproj.CoreCompileInputs.cache
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\WPF HelloWord.sourcelink.json
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\WPF HelloWord.dll
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\refint\WPF HelloWord.dll
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\WPF HelloWord.pdb
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\WPF HelloWord.genruntimeconfig.cache
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\ref\WPF HelloWord.dll

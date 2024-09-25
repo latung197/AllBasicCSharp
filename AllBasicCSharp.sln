@@ -88,7 +88,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAPI", "TestAPI\TestAPI.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Winform", "Winform\Winform.csproj", "{27804217-8125-4190-BC22-AA5429BBB6D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netCore8", "netCore8\netCore8.csproj", "{46B3BA00-A0D6-40F4-86A3-07A7C201D037}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "netCore8", "netCore8\netCore8.csproj", "{46B3BA00-A0D6-40F4-86A3-07A7C201D037}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF HelloWord", "WPF HelloWord\WPF HelloWord.csproj", "{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -264,6 +266,10 @@ Global
 		{46B3BA00-A0D6-40F4-86A3-07A7C201D037}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46B3BA00-A0D6-40F4-86A3-07A7C201D037}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46B3BA00-A0D6-40F4-86A3-07A7C201D037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
