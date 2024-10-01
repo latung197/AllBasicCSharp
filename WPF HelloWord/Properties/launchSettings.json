@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WPF HelloWord": {
+      "commandName": "Project",
+      "commandLineArgs": "Tham so command"
+    }
+  }
+}

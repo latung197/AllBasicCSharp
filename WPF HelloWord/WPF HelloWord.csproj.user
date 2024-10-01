@@ -7,6 +7,26 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Form\E01Textblock.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\Resource.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\UICulture.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Form\E01Textblock.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\Resource.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\UICulture.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
