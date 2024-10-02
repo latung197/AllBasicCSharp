@@ -11,3 +11,15 @@ D:\TongHopKienThuc\AllBasicCSharp\Bai27DependencyThietKePM\obj\Debug\Bai27Depend
 D:\TongHopKienThuc\AllBasicCSharp\Bai27DependencyThietKePM\obj\Debug\Bai27DependencyThietKePM.csproj.CopyComplete
 D:\TongHopKienThuc\AllBasicCSharp\Bai27DependencyThietKePM\obj\Debug\Bai27DependencyThietKePM.exe
 D:\TongHopKienThuc\AllBasicCSharp\Bai27DependencyThietKePM\obj\Debug\Bai27DependencyThietKePM.pdb
+D:\TungLV\Project\AllBasicCSharp\Bai27DependencyThietKePM\bin\Debug\Bai27DependencyThietKePM.exe.config
+D:\TungLV\Project\AllBasicCSharp\Bai27DependencyThietKePM\bin\Debug\Bai27DependencyThietKePM.exe
+D:\TungLV\Project\AllBasicCSharp\Bai27DependencyThietKePM\bin\Debug\Bai27DependencyThietKePM.pdb
+D:\TungLV\Project\AllBasicCSharp\Bai27DependencyThietKePM\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\TungLV\Project\AllBasicCSharp\Bai27DependencyThietKePM\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\TungLV\Project\AllBasicCSharp\Bai27DependencyThietKePM\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\TungLV\Project\AllBasicCSharp\Bai27DependencyThietKePM\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\TungLV\Project\AllBasicCSharp\Bai27DependencyThietKePM\obj\Debug\Bai27DependencyThietKePM.csproj.AssemblyReference.cache
+D:\TungLV\Project\AllBasicCSharp\Bai27DependencyThietKePM\obj\Debug\Bai27DependencyThietKePM.csproj.CoreCompileInputs.cache
+D:\TungLV\Project\AllBasicCSharp\Bai27DependencyThietKePM\obj\Debug\Bai27Dep.BFA361CF.Up2Date
+D:\TungLV\Project\AllBasicCSharp\Bai27DependencyThietKePM\obj\Debug\Bai27DependencyThietKePM.exe
+D:\TungLV\Project\AllBasicCSharp\Bai27DependencyThietKePM\obj\Debug\Bai27DependencyThietKePM.pdb

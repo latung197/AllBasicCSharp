@@ -4,3 +4,9 @@ D:\TongHopKienThuc\AllBasicCSharp\Bai31TaoThuVien\obj\Debug\Bai31TaoThuVien.cspr
 D:\TongHopKienThuc\AllBasicCSharp\Bai31TaoThuVien\obj\Debug\Bai31TaoThuVien.csproj.CoreCompileInputs.cache
 D:\TongHopKienThuc\AllBasicCSharp\Bai31TaoThuVien\obj\Debug\Bai31TaoThuVien.dll
 D:\TongHopKienThuc\AllBasicCSharp\Bai31TaoThuVien\obj\Debug\Bai31TaoThuVien.pdb
+D:\TungLV\Project\AllBasicCSharp\Bai31TaoThuVien\bin\Debug\Bai31TaoThuVien.dll
+D:\TungLV\Project\AllBasicCSharp\Bai31TaoThuVien\bin\Debug\Bai31TaoThuVien.pdb
+D:\TungLV\Project\AllBasicCSharp\Bai31TaoThuVien\obj\Debug\Bai31TaoThuVien.csproj.AssemblyReference.cache
+D:\TungLV\Project\AllBasicCSharp\Bai31TaoThuVien\obj\Debug\Bai31TaoThuVien.csproj.CoreCompileInputs.cache
+D:\TungLV\Project\AllBasicCSharp\Bai31TaoThuVien\obj\Debug\Bai31TaoThuVien.dll
+D:\TungLV\Project\AllBasicCSharp\Bai31TaoThuVien\obj\Debug\Bai31TaoThuVien.pdb

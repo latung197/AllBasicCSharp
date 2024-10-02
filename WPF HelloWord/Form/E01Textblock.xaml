@@ -7,10 +7,37 @@
         mc:Ignorable="d"
         Title="E01Textblock" Height="450" Width="300">
     <Grid>
-        <StackPanel>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <StackPanel Grid.Row="0">
             <TextBlock Margin="10" Foreground="Red">This is Textblock <LineBreak/>This is line tow of textblock</TextBlock>
             <TextBlock Margin="10" TextTrimming="CharacterEllipsis" Foreground="Green">This is a TextBlock control with text that my not be rendered comblete, which will be indicated with an ellipsis</TextBlock>
             <TextBlock Margin="10" TextWrapping="Wrap" Foreground="Blue">This is a TextBlock control with automatically wrapped text, using the text wrapping</TextBlock>
         </StackPanel>
+
+        <StackPanel Grid.Row="1">
+            <TextBlock Margin="10" TextWrapping="Wrap">
+                Textblock with <Bold>Bold</Bold>, <Italic>Italic</Italic> and <Underline>underline</Underline> text
+            </TextBlock>
+            <TextBlock Margin="10" TextWrapping="Wrap">This text has a <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="https:www.google.com">Link youtobe</Hyperlink> </TextBlock>
+
+            <TextBlock Margin="10px" TextWrapping="Wrap">
+                This <Span FontWeight="Bold">is</Span> a<Span Background="Silver" Foreground="Maroon">Textblock</Span> with <Span FontStyle="Italic">Span</Span> elements, <Span Foreground="Blue">Using a <Bold> variety</Bold> of <Italic>Styles</Italic></Span>
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Name="stPain">
+            <TextBlock x:Name="txtDemo">
+                
+            </TextBlock>
+        </StackPanel>
+
     </Grid>
+    
 </Window>

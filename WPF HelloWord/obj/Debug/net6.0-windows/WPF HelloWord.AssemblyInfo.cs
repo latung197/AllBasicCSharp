@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WPF HelloWord")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b50c214ba464b2ce3f23b4b7951b515161cf657")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1899c3347d519da3fe40784a1b7137df46a10b1b")]
 [assembly: System.Reflection.AssemblyProductAttribute("WPF HelloWord")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WPF HelloWord")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

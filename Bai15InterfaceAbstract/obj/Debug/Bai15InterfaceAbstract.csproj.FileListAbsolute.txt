@@ -5,3 +5,10 @@ D:\TongHopKienThuc\AllBasicCSharp\Bai15InterfaceAbstract\obj\Debug\Bai15Interfac
 D:\TongHopKienThuc\AllBasicCSharp\Bai15InterfaceAbstract\obj\Debug\Bai15InterfaceAbstract.exe
 D:\TongHopKienThuc\AllBasicCSharp\Bai15InterfaceAbstract\obj\Debug\Bai15InterfaceAbstract.pdb
 D:\TongHopKienThuc\AllBasicCSharp\Bai15InterfaceAbstract\obj\Debug\Bai15InterfaceAbstract.csprojAssemblyReference.cache
+D:\TungLV\Project\AllBasicCSharp\Bai15InterfaceAbstract\bin\Debug\Bai15InterfaceAbstract.exe.config
+D:\TungLV\Project\AllBasicCSharp\Bai15InterfaceAbstract\bin\Debug\Bai15InterfaceAbstract.exe
+D:\TungLV\Project\AllBasicCSharp\Bai15InterfaceAbstract\bin\Debug\Bai15InterfaceAbstract.pdb
+D:\TungLV\Project\AllBasicCSharp\Bai15InterfaceAbstract\obj\Debug\Bai15InterfaceAbstract.csproj.AssemblyReference.cache
+D:\TungLV\Project\AllBasicCSharp\Bai15InterfaceAbstract\obj\Debug\Bai15InterfaceAbstract.csproj.CoreCompileInputs.cache
+D:\TungLV\Project\AllBasicCSharp\Bai15InterfaceAbstract\obj\Debug\Bai15InterfaceAbstract.exe
+D:\TungLV\Project\AllBasicCSharp\Bai15InterfaceAbstract\obj\Debug\Bai15InterfaceAbstract.pdb

@@ -59,7 +59,7 @@ namespace WPF_HelloWord
 
 
 
-        } 
+        }
 
         public event PropertyChangedEventHandler? PropertyChanged;
 
@@ -78,8 +78,74 @@ namespace WPF_HelloWord
 
         private void btnTextBlock_Click(object sender, RoutedEventArgs e)
         {
-            E01Textblock textBlock = new E01Textblock();    
+            E01Textblock textBlock = new E01Textblock();
             textBlock.ShowDialog();
+        }
+
+        private void btnLable_Click(object sender, RoutedEventArgs e)
+        {
+            E02Lable lable = new E02Lable();
+            lable.ShowDialog();
+        }
+
+        private void btnTextBox_Click(object sender, RoutedEventArgs e)
+        {
+            E03Textbox textbox = new E03Textbox();
+            textbox.ShowDialog();
+        }
+
+        private void btnButton_Click(object sender, RoutedEventArgs e)
+        {
+            E04Button button = new E04Button();
+            button.ShowDialog();
+        }
+
+        private void btnCheckBox_Click(object sender, RoutedEventArgs e)
+        {
+            E05CheckBox checkbox = new E05CheckBox();
+            checkbox.ShowDialog();
+        }
+
+        private void btnRadiobutton_Click(object sender, RoutedEventArgs e)
+        {
+            E06Radiobutton e06Radiobutton = new E06Radiobutton();
+            e06Radiobutton.ShowDialog();
+        }
+
+        private void btnPassWord_Click(object sender, RoutedEventArgs e)
+        {
+            E07PassWord passWord = new E07PassWord();
+            passWord.ShowDialog();
+        }
+
+        private void btnImage_Click(object sender, RoutedEventArgs e)
+        {
+            E08Image image = new E08Image();
+            image.ShowDialog();
+        }
+
+        private void btnToolTips_Click(object sender, RoutedEventArgs e)
+        {
+            E09ToolTips toolTips = new E09ToolTips();
+            toolTips.ShowDialog();
+        }
+
+        private void btnTextRendering_Click(object sender, RoutedEventArgs e)
+        {
+            E10TextRendering textRendering = new E10TextRendering();
+            textRendering.ShowDialog();
+        }
+
+        private void btnTabOrder_Click(object sender, RoutedEventArgs e)
+        {
+            E11TabOrder tabOrder = new E11TabOrder();
+            tabOrder.ShowDialog();
+        }
+
+        private void btnAccessKey_Click(object sender, RoutedEventArgs e)
+        {
+            E12Access_Keys key = new E12Access_Keys();
+            key.ShowDialog();
         }
     }
 }

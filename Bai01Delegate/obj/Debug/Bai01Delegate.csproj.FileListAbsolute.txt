@@ -5,3 +5,10 @@ D:\TongHopKienThuc\AllBasicCSharp\Bai01Delegate\obj\Debug\Bai01Delegate.csprojAs
 D:\TongHopKienThuc\AllBasicCSharp\Bai01Delegate\obj\Debug\Bai01Delegate.csproj.CoreCompileInputs.cache
 D:\TongHopKienThuc\AllBasicCSharp\Bai01Delegate\obj\Debug\Delegate.exe
 D:\TongHopKienThuc\AllBasicCSharp\Bai01Delegate\obj\Debug\Delegate.pdb
+D:\TungLV\Project\AllBasicCSharp\Bai01Delegate\bin\Debug\Delegate.exe.config
+D:\TungLV\Project\AllBasicCSharp\Bai01Delegate\bin\Debug\Delegate.exe
+D:\TungLV\Project\AllBasicCSharp\Bai01Delegate\bin\Debug\Delegate.pdb
+D:\TungLV\Project\AllBasicCSharp\Bai01Delegate\obj\Debug\Bai01Delegate.csproj.AssemblyReference.cache
+D:\TungLV\Project\AllBasicCSharp\Bai01Delegate\obj\Debug\Bai01Delegate.csproj.CoreCompileInputs.cache
+D:\TungLV\Project\AllBasicCSharp\Bai01Delegate\obj\Debug\Delegate.exe
+D:\TungLV\Project\AllBasicCSharp\Bai01Delegate\obj\Debug\Delegate.pdb

@@ -10,6 +10,39 @@
     <Compile Update="Form\E01Textblock.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Form\E02Lable.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E03Textbox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E04Button.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E05CheckBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E06Radiobutton.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E07PassWord.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E08Image.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E09ToolTips.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E10TextRendering.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E11TabOrder.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E12Access_Keys.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Form\Resource.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -19,6 +52,39 @@
   </ItemGroup>
   <ItemGroup>
     <Page Update="Form\E01Textblock.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E02Lable.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E03Textbox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E04Button.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E05CheckBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E06Radiobutton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E07PassWord.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E08Image.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E09ToolTips.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E10TextRendering.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E11TabOrder.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E12Access_Keys.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Form\Resource.xaml">

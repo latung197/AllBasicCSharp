@@ -8,9 +8,20 @@
         Title="MainWindow" Height="450" Width="800"
         ResizeMode="NoResize">
     <Grid>
-        <Button x:Name="btnResource" Content="Resource" HorizontalAlignment="Left" Margin="42,35,0,0" VerticalAlignment="Top" Width="90" Click="btnResource_Click"/>
-        <Button x:Name="btnUICulture" Content="UICulture" HorizontalAlignment="Left" Margin="42,70,0,0" VerticalAlignment="Top" Width="90" Click="btnUICulture_Click"/>
-        <Button x:Name="btnTextBlock" Content="TextBlock" HorizontalAlignment="Left" Margin="42,105,0,0" VerticalAlignment="Top" Width="90" Click="btnTextBlock_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnResource" Content="Resource" HorizontalAlignment="Left" Margin="42,35,0,0" VerticalAlignment="Top" Width="90" Click="btnResource_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnUICulture" Content="UICulture" HorizontalAlignment="Left" Margin="42,60,0,0" VerticalAlignment="Top" Width="90" Click="btnUICulture_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnTextBlock" Content="TextBlock" HorizontalAlignment="Left" Margin="42,85,0,0" VerticalAlignment="Top" Width="90" Click="btnTextBlock_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnLable" Content="Lable" HorizontalAlignment="Left" Margin="42,110,0,0" VerticalAlignment="Top" Width="90" Click="btnLable_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnTextBox" Content="TextBox" HorizontalAlignment="Left" Margin="42,135,0,0" VerticalAlignment="Top" Width="90" Click="btnTextBox_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnButton" Content="Button" HorizontalAlignment="Left" Margin="42,160,0,0" VerticalAlignment="Top" Width="90" Click="btnButton_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnCheckBox" Content="CheckBox" HorizontalAlignment="Left" Margin="42,185,0,0" VerticalAlignment="Top" Width="90" Click="btnCheckBox_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnRadiobutton" Content="Radiobutton" HorizontalAlignment="Left" Margin="42,210,0,0" VerticalAlignment="Top" Width="90" Click="btnRadiobutton_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnPassWord" Content="PassWord" HorizontalAlignment="Left" Margin="42,235,0,0" VerticalAlignment="Top" Width="90" Click="btnPassWord_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnImage" Content="Image" HorizontalAlignment="Left" Margin="42,260,0,0" VerticalAlignment="Top" Width="90" Click="btnImage_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnToolTips" Content="ToolTips" HorizontalAlignment="Left" Margin="42,285,0,0" VerticalAlignment="Top" Width="90" Click="btnToolTips_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnTextRendering" Content="TextRendering" HorizontalAlignment="Left" Margin="42,310,0,0" VerticalAlignment="Top" Width="90" Click="btnTextRendering_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnTabOrder" Content="Tab Order" HorizontalAlignment="Left" Margin="42,335,0,0" VerticalAlignment="Top" Width="90" Click="btnTabOrder_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnAccessKey" Content="AccessKey" HorizontalAlignment="Left" Margin="175,35,0,0" VerticalAlignment="Top" Width="80" Click="btnAccessKey_Click"/>
 
     </Grid>
 
