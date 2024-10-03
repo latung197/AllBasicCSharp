@@ -43,6 +43,9 @@
     <Compile Update="Form\E12Access_Keys.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Form\E13Panels.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Form\Resource.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -85,6 +88,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Form\E12Access_Keys.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E13Panels.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Form\Resource.xaml">

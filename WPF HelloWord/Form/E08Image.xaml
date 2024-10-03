@@ -1,0 +1,31 @@
+﻿<Window x:Class="WPF_HelloWord.Form.E08Image"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_HelloWord.Form"
+        mc:Ignorable="d"
+        Title="E08Image" Height="500" Width="500">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Grid.Column="0" Margin="10">
+            <Image Stretch="Uniform"  Source="C:\Users\RFVNPC\Desktop\imga.jpg" />
+        </StackPanel>
+        <StackPanel Grid.Column="1" Margin="10" Grid.Row="0">
+            <StackPanel>
+                <WrapPanel Margin="10" HorizontalAlignment="Center">
+                    <Button x:Name="btnLoadFromFile" Click="btnLoadFromFile_Click">Load from file</Button>
+                    <Button Margin="20,0,0,0" Name="btnLoadFromResource" Click="btnLoadFromResource_Click">Load from Resource</Button>
+                </WrapPanel>
+                <Image Name="imgDynamic" Stretch ="UniformToFill"  Margin="10"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

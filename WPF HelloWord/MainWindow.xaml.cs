@@ -147,5 +147,11 @@ namespace WPF_HelloWord
             E12Access_Keys key = new E12Access_Keys();
             key.ShowDialog();
         }
+
+        private void btnPanel_Click(object sender, RoutedEventArgs e)
+        {
+            E13Panels e13Panels = new E13Panels();
+            e13Panels.ShowDialog();
+        }
     }
 }

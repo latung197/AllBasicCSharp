@@ -1,0 +1,46 @@
+﻿<Window x:Class="WPF_HelloWord.Form.E06Radiobutton"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_HelloWord.Form"
+        mc:Ignorable="d"
+        Title="E06Radiobutton" Height="500" Width="500">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Margin="10" Grid.Row="0" Grid.Column="0">
+            <Label FontWeight="Bold">Are you ready</Label>
+            <RadioButton GroupName="ready">Yes</RadioButton>
+            <RadioButton GroupName="ready">No</RadioButton>
+            <RadioButton GroupName="ready" IsChecked="True">Maybe</RadioButton>
+        </StackPanel>
+
+        <StackPanel Margin="10" Grid.Row="0" Grid.Column="1">
+            <Label FontWeight="Bold">Are you ready</Label>
+            <RadioButton GroupName="ready1">Yes</RadioButton>
+            <RadioButton GroupName="ready1">No</RadioButton>
+            <RadioButton GroupName="ready1" IsChecked="True">Maybe</RadioButton>
+            <Label FontWeight="Bold">Male or Female</Label>
+            <RadioButton GroupName="sex">Male</RadioButton>
+            <RadioButton GroupName="sex">Female</RadioButton>
+            <RadioButton GroupName="sex" IsChecked="True">Maybe</RadioButton>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="0">
+            <Label FontWeight="Bold">Male or Female</Label>
+            <RadioButton GroupName="sex1">
+                <TextBlock Foreground="Blue" FontWeight="Bold">Male</TextBlock></RadioButton>
+            <RadioButton GroupName="sex1">
+                <TextBlock Foreground="Red" FontWeight="Bold">FeMale</TextBlock>
+            </RadioButton>
+            <RadioButton GroupName="sex1" IsChecked="True">Maybe</RadioButton>
+        </StackPanel>
+    </Grid>
+</Window>
