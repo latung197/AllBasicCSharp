@@ -46,6 +46,30 @@
     <Compile Update="Form\E13Panels.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Form\E14UserControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E15Databinding.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E15DatabindingHelloword.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E15DatabindingUsingDatacontext.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E15DatabindingViaCodebehind.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E15UpdateSourceTrigger.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E16RespondingToChanges.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E17IValueConverter.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Form\Resource.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -91,6 +115,30 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Form\E13Panels.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E14UserControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E15Databinding.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E15DatabindingHelloword.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E15DatabindingUsingDatacontext.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E15DatabindingViaCodebehind.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E15UpdateSourceTrigger.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E16RespondingToChanges.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E17IValueConverter.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Form\Resource.xaml">

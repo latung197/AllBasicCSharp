@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\App.xaml
-161788346179
+24553114154
 
-23-414880521
+311800766766
 194-1701117732
-Form\E01Textblock.xaml;Form\E02Lable.xaml;Form\E03Textbox.xaml;Form\E04Button.xaml;Form\E05CheckBox.xaml;Form\E06Radiobutton.xaml;Form\E07PassWord.xaml;Form\E08Image.xaml;Form\E09ToolTips.xaml;Form\E10TextRendering.xaml;Form\E11TabOrder.xaml;Form\E12Access_Keys.xaml;Form\E13Panels.xaml;Form\Resource.xaml;Form\UICulture.xaml;MainWindow.xaml;
+Form\E01Textblock.xaml;Form\E02Lable.xaml;Form\E03Textbox.xaml;Form\E04Button.xaml;Form\E05CheckBox.xaml;Form\E06Radiobutton.xaml;Form\E07PassWord.xaml;Form\E08Image.xaml;Form\E09ToolTips.xaml;Form\E10TextRendering.xaml;Form\E11TabOrder.xaml;Form\E12Access_Keys.xaml;Form\E13Panels.xaml;Form\E14UserControl.xaml;Form\E15Databinding.xaml;Form\E15DatabindingHelloword.xaml;Form\E15DatabindingUsingDatacontext.xaml;Form\E15DatabindingViaCodebehind.xaml;Form\E15UpdateSourceTrigger.xaml;Form\E16RespondingToChanges.xaml;Form\E17IValueConverter.xaml;Form\Resource.xaml;Form\UICulture.xaml;MainWindow.xaml;
 
 True
 

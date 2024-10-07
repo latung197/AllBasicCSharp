@@ -52,3 +52,17 @@ D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E12
 D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E12Access_Keys.baml
 D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E13Panels.g.cs
 D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E13Panels.baml
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E14UserControl.g.cs
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E14UserControl.baml
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E15Databinding.g.cs
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E15DatabindingHelloword.g.cs
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E15Databinding.baml
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E15DatabindingHelloword.baml
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E15DatabindingUsingDatacontext.g.cs
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E15DatabindingUsingDatacontext.baml
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E15DatabindingViaCodebehind.g.cs
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E15DatabindingViaCodebehind.baml
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E15UpdateSourceTrigger.g.cs
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E15UpdateSourceTrigger.baml
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E16RespondingToChanges.g.cs
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E16RespondingToChanges.baml

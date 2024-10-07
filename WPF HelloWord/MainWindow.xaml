@@ -21,8 +21,10 @@
         <Button FontWeight="Bold" Foreground="Green" x:Name="btnToolTips" Content="ToolTips" HorizontalAlignment="Left" Margin="42,285,0,0" VerticalAlignment="Top" Width="90" Click="btnToolTips_Click"/>
         <Button FontWeight="Bold" Foreground="Green" x:Name="btnTextRendering" Content="TextRendering" HorizontalAlignment="Left" Margin="42,310,0,0" VerticalAlignment="Top" Width="90" Click="btnTextRendering_Click"/>
         <Button FontWeight="Bold" Foreground="Green" x:Name="btnTabOrder" Content="Tab Order" HorizontalAlignment="Left" Margin="42,335,0,0" VerticalAlignment="Top" Width="90" Click="btnTabOrder_Click"/>
-        <Button FontWeight="Bold" Foreground="Green" x:Name="btnAccessKey" Content="AccessKey" HorizontalAlignment="Left" Margin="175,35,0,0" VerticalAlignment="Top" Width="80" Click="btnAccessKey_Click"/>
-        <Button FontWeight="Bold" Foreground="Green" x:Name="btnPanel" Content="Panel" HorizontalAlignment="Left" Margin="175,60,0,0" VerticalAlignment="Top" Width="80" Click="btnPanel_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnAccessKey" Content="AccessKey" HorizontalAlignment="Left" Margin="175,35,0,0" VerticalAlignment="Top" Width="225" Click="btnAccessKey_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnPanel" Content="Panel" HorizontalAlignment="Left" Margin="175,60,0,0" VerticalAlignment="Top" Width="225" Click="btnPanel_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnDatabinding" Content="Databinding" HorizontalAlignment="Left" Margin="175,85,0,0" VerticalAlignment="Top" Width="225" Click="btnDatabinding_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnDatabindingReponding" Content="Databinding Responding to changes" HorizontalAlignment="Left" Margin="175,110,0,0" VerticalAlignment="Top" Width="225" Click="btnDatabindingReponding_Click"/>
 
     </Grid>
 

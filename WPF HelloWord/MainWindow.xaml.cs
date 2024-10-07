@@ -56,9 +56,6 @@ namespace WPF_HelloWord
             winDown.WindowState = WindowState.Normal;// Set kích thước ban đầu khi mở cửa sổ. Normal/ Minimized/ Maximized
 
             // trong file App.xaml thuốc tính StarupUri: Xác nhận cửa sổ nó được mở đầu tiên khi chạy trương trình
-
-
-
         }
 
         public event PropertyChangedEventHandler? PropertyChanged;
@@ -152,6 +149,18 @@ namespace WPF_HelloWord
         {
             E13Panels e13Panels = new E13Panels();
             e13Panels.ShowDialog();
+        }
+
+        private void btnDatabinding_Click(object sender, RoutedEventArgs e)
+        {
+            E15Databinding e15Databinding = new E15Databinding();
+            e15Databinding.ShowDialog();
+        }
+
+        private void btnDatabindingReponding_Click(object sender, RoutedEventArgs e)
+        {
+            E16RespondingToChanges e16RespondingToChanges = new E16RespondingToChanges();
+            e16RespondingToChanges.ShowDialog();
         }
     }
 }

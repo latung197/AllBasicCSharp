@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "D:\\TungLV\\Project\\AllBasicCSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|d:\\tunglv\\project\\allbasiccsharp\\wpf helloword\\form\\e13panels.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|solutionrelative:wpf helloword\\form\\e13panels.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|d:\\tunglv\\project\\allbasiccsharp\\wpf helloword\\form\\e17ivalueconverter.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|solutionrelative:wpf helloword\\form\\e17ivalueconverter.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|d:\\tunglv\\project\\allbasiccsharp\\wpf helloword\\form\\e13panels.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|solutionrelative:wpf helloword\\form\\e13panels.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|d:\\tunglv\\project\\allbasiccsharp\\wpf helloword\\form\\e17ivalueconverter.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|solutionrelative:wpf helloword\\form\\e17ivalueconverter.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|D:\\TungLV\\Project\\AllBasicCSharp\\wpf helloword\\form\\e11taborder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|solutionrelative:wpf helloword\\form\\e11taborder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|d:\\tunglv\\project\\allbasiccsharp\\wpf helloword\\form\\e16respondingtochanges.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|solutionrelative:wpf helloword\\form\\e16respondingtochanges.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|D:\\TungLV\\Project\\AllBasicCSharp\\wpf helloword\\form\\e09tooltips.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|solutionrelative:wpf helloword\\form\\e09tooltips.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|D:\\TungLV\\Project\\AllBasicCSharp\\wpf helloword\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|solutionrelative:wpf helloword\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|D:\\TungLV\\Project\\AllBasicCSharp\\wpf helloword\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|solutionrelative:wpf helloword\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|D:\\TungLV\\Project\\AllBasicCSharp\\wpf helloword\\form\\e10textrendering.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|solutionrelative:wpf helloword\\form\\e10textrendering.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|d:\\tunglv\\project\\allbasiccsharp\\wpf helloword\\form\\e16respondingtochanges.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|solutionrelative:wpf helloword\\form\\e16respondingtochanges.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,86 +35,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "E13Panels.xaml.cs",
-              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E13Panels.xaml.cs",
-              "RelativeDocumentMoniker": "WPF HelloWord\\Form\\E13Panels.xaml.cs",
-              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E13Panels.xaml.cs",
-              "RelativeToolTip": "WPF HelloWord\\Form\\E13Panels.xaml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Title": "E17IValueConverter.xaml.cs",
+              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E17IValueConverter.xaml.cs",
+              "RelativeDocumentMoniker": "WPF HelloWord\\Form\\E17IValueConverter.xaml.cs",
+              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E17IValueConverter.xaml.cs",
+              "RelativeToolTip": "WPF HelloWord\\Form\\E17IValueConverter.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACoAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T02:45:40.987Z",
+              "WhenOpened": "2024-10-07T10:16:51.955Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "E13Panels.xaml",
-              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E13Panels.xaml",
-              "RelativeDocumentMoniker": "WPF HelloWord\\Form\\E13Panels.xaml",
-              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E13Panels.xaml",
-              "RelativeToolTip": "WPF HelloWord\\Form\\E13Panels.xaml",
+              "Title": "E17IValueConverter.xaml",
+              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E17IValueConverter.xaml",
+              "RelativeDocumentMoniker": "WPF HelloWord\\Form\\E17IValueConverter.xaml",
+              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E17IValueConverter.xaml",
+              "RelativeToolTip": "WPF HelloWord\\Form\\E17IValueConverter.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-03T02:03:31.644Z",
+              "WhenOpened": "2024-10-07T10:16:37.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "E11TabOrder.xaml",
-              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E11TabOrder.xaml",
-              "RelativeDocumentMoniker": "WPF HelloWord\\Form\\E11TabOrder.xaml",
-              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E11TabOrder.xaml",
-              "RelativeToolTip": "WPF HelloWord\\Form\\E11TabOrder.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-02T10:46:46.688Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "E10TextRendering.xaml",
-              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E10TextRendering.xaml",
-              "RelativeDocumentMoniker": "WPF HelloWord\\Form\\E10TextRendering.xaml",
-              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E10TextRendering.xaml",
-              "RelativeToolTip": "WPF HelloWord\\Form\\E10TextRendering.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-02T10:43:01.314Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WPF HelloWord\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\MainWindow.xaml.cs",
-              "RelativeToolTip": "WPF HelloWord\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAHQAAAAAAAAAAAAkwJkAAAAjAAAA",
+              "Title": "E16RespondingToChanges.xaml.cs",
+              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E16RespondingToChanges.xaml.cs",
+              "RelativeDocumentMoniker": "WPF HelloWord\\Form\\E16RespondingToChanges.xaml.cs",
+              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E16RespondingToChanges.xaml.cs",
+              "RelativeToolTip": "WPF HelloWord\\Form\\E16RespondingToChanges.xaml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACMAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T10:11:16.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "WPF HelloWord\\MainWindow.xaml",
-              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\MainWindow.xaml",
-              "RelativeToolTip": "WPF HelloWord\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-02T10:10:48.705Z",
+              "WhenOpened": "2024-10-07T10:12:52.447Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "E09ToolTips.xaml",
-              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E09ToolTips.xaml",
-              "RelativeDocumentMoniker": "WPF HelloWord\\Form\\E09ToolTips.xaml",
-              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E09ToolTips.xaml",
-              "RelativeToolTip": "WPF HelloWord\\Form\\E09ToolTips.xaml",
+              "Title": "E16RespondingToChanges.xaml",
+              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E16RespondingToChanges.xaml",
+              "RelativeDocumentMoniker": "WPF HelloWord\\Form\\E16RespondingToChanges.xaml",
+              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E16RespondingToChanges.xaml",
+              "RelativeToolTip": "WPF HelloWord\\Form\\E16RespondingToChanges.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-02T10:10:36.584Z",
+              "WhenOpened": "2024-10-07T10:10:36.778Z",
               "EditorCaption": ""
             }
           ]
