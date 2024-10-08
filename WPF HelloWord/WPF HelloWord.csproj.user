@@ -70,6 +70,18 @@
     <Compile Update="Form\E17IValueConverter.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Form\E17StringFormatProperty.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E18Debugging.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E19WPFcommands.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E20MessageBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Form\Resource.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -139,6 +151,18 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Form\E17IValueConverter.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E17StringFormatProperty.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E18Debugging.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E19WPFcommands.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E20MessageBox.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Form\Resource.xaml">

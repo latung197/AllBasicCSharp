@@ -162,5 +162,23 @@ namespace WPF_HelloWord
             E16RespondingToChanges e16RespondingToChanges = new E16RespondingToChanges();
             e16RespondingToChanges.ShowDialog();
         }
+
+        private void btnStringFormat_Click(object sender, RoutedEventArgs e)
+        {
+            E17StringFormatProperty e17StringFormatProperty = new E17StringFormatProperty();
+            e17StringFormatProperty.ShowDialog();
+        }
+
+        private void btnWPFcommands_Click(object sender, RoutedEventArgs e)
+        {
+            E19WPFcommands e19WPFcommands = new E19WPFcommands();
+            e19WPFcommands.ShowDialog();
+        }
+
+        private void btnMessageBox_Click(object sender, RoutedEventArgs e)
+        {
+            E20MessageBox e20MessageBox = new E20MessageBox();
+            e20MessageBox.ShowDialog();
+        }
     }
 }

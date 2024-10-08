@@ -85,7 +85,7 @@ namespace WPF_HelloWord.Form {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WPF HelloWord;V1.0.0.0;component/form/e16respondingtochanges.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WPF HelloWord;component/form/e16respondingtochanges.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Form\E16RespondingToChanges.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -27,7 +27,15 @@ namespace WPF_HelloWord.Form
          */
         public E17IValueConverter()
         {
-            InitializeComponent();
+            try
+            {
+                InitializeComponent();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         public class YesNoToBooleanConverter : IValueConverter
