@@ -28,6 +28,19 @@
         <Button FontWeight="Bold" Foreground="Green" x:Name="btnStringFormat" Content="StringFormat" HorizontalAlignment="Left" Margin="175,135,0,0" VerticalAlignment="Top" Width="225" Click="btnStringFormat_Click"/>
         <Button FontWeight="Bold" Foreground="Green" x:Name="btnWPFcommands" Content="WPF commands" HorizontalAlignment="Left" Margin="175,160,0,0" VerticalAlignment="Top" Width="225" Click="btnWPFcommands_Click"/>
         <Button FontWeight="Bold" Foreground="Green" x:Name="btnMessageBox" Content="MessageBox" HorizontalAlignment="Left" Margin="175,185,0,0" VerticalAlignment="Top" Width="225" Click="btnMessageBox_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnOpenFileDialog" Content="OpenFileDialog" HorizontalAlignment="Left" Margin="175,210,0,0" VerticalAlignment="Top" Width="225" Click="btnOpenFileDialog_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnMenuControl" Content="MenuControl" HorizontalAlignment="Left" Margin="175,235,0,0" VerticalAlignment="Top" Width="225" Click="btnMenuControl_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnContextMenu" Content="Context Menu" HorizontalAlignment="Left" Margin="175,260,0,0" VerticalAlignment="Top" Width="225" Click="btnContextMenu_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnToolBarcontrol" Content="ToolBar control" HorizontalAlignment="Left" Margin="175,285,0,0" VerticalAlignment="Top" Width="225" Click="btnToolBarcontrol_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnStatusBarcontrol" Content="StatusBar control" HorizontalAlignment="Left" Margin="175,310,0,0" VerticalAlignment="Top" Width="225" Click="btnStatusBarcontrol_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnFlowDocumentScrollViewercontrol" Content="FlowDocumentScrollViewer control" HorizontalAlignment="Left" Margin="175,335,0,0" VerticalAlignment="Top" Width="225" Click="btnFlowDocumentScrollViewercontrol_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnFlowDocumentPageViewer" Content="FlowDocumentPageViewer Control" HorizontalAlignment="Left" Margin="444,35,0,0" VerticalAlignment="Top" Width="225" Click="btnFlowDocumentPageViewer_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnBordercontrol" Content="Border control" HorizontalAlignment="Left" Margin="444,60,0,0" VerticalAlignment="Top" Width="225" Click="btnBordercontrol_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnSlidercontrol" Content="Slider control" HorizontalAlignment="Left" Margin="444,85,0,0" VerticalAlignment="Top" Width="225" Click="btnSlidercontrol_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnProgressBar" Content="ProgressBar control" HorizontalAlignment="Left" Margin="444,110,0,0" VerticalAlignment="Top" Width="225" Click="btnProgressBar_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnWebBrowsercontrol" Content="WebBrowser control" HorizontalAlignment="Left" Margin="444,135,0,0" VerticalAlignment="Top" Width="225" Click="btnWebBrowsercontrol_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnGroupBoxcontrol" Content="GroupBox control" HorizontalAlignment="Left" Margin="444,160,0,0" VerticalAlignment="Top" Width="225" Click="btnGroupBoxcontrol_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnDateTime_Calendar" Content="Calendar and datetime" HorizontalAlignment="Left" Margin="444,185,0,0" VerticalAlignment="Top" Width="225" Click="btnDateTime_Calendar_Click"/>
 
     </Grid>
 

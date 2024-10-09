@@ -82,6 +82,48 @@
     <Compile Update="Form\E20MessageBox.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Form\E21OpenFileDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E22MenuControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E23ContextMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E24ToolBarcontrol.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E25StatusBarcontrol.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E26FlowDocumentScrollViewer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E27FlowDocumentPageViewerControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E28RichTextEditor.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E29BorderControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E30Slidercontrol.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E31ProgressBarcontrol.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E32WebBrowerControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E34Datetime_CalendarControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E33GroupboxControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Form\Resource.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -163,6 +205,48 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Form\E20MessageBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E21OpenFileDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E22MenuControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E23ContextMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E24ToolBarcontrol.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E25StatusBarcontrol.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E26FlowDocumentScrollViewer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E27FlowDocumentPageViewerControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E28RichTextEditor.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E29BorderControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E30Slidercontrol.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E31ProgressBarcontrol.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E32WebBrowerControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E34Datetime_CalendarControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E33GroupboxControl.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Form\Resource.xaml">

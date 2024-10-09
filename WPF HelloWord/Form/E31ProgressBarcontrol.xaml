@@ -1,0 +1,28 @@
+﻿<Window x:Class="WPF_HelloWord.Form.E31ProgressBarcontrol"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_HelloWord.Form"
+        mc:Ignorable="d"
+        Title="E31ProgressBarcontrol" Height="450" Width="800"
+        ContentRendered="Window_ContentRendered">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <StackPanel Margin="20" Grid.Column="0">
+            <ProgressBar Margin="10" Height="20" Minimum="0" Maximum="100" Value="75" />
+        </StackPanel>
+
+        <StackPanel Margin="20" Grid.Column="1">
+            <ProgressBar Margin="10" Height="20" Minimum="0" Maximum="100" Name="pbStatus"/>
+        </StackPanel>
+        <StackPanel Margin="20" Grid.Column="2">
+            <ProgressBar Margin="10" Height="20" Minimum="0" Maximum="100" IsIndeterminate="True" />
+        </StackPanel>
+    </Grid>
+</Window>

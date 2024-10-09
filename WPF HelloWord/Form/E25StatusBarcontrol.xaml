@@ -1,0 +1,57 @@
+﻿<Window x:Class="WPF_HelloWord.Form.E25StatusBarcontrol"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_HelloWord.Form"
+        mc:Ignorable="d"
+        Title="E25StatusBarcontrol" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <DockPanel Margin="10">
+            <StatusBar DockPanel.Dock="Bottom">
+                <StatusBarItem>
+                    <TextBlock x:Name="lblCursorPosition"/>
+                </StatusBarItem>
+            </StatusBar>
+            <TextBox AcceptsReturn="True" x:Name="txtEditor" SelectionChanged="txtEditor_SelectionChanged"/>
+        </DockPanel>
+        
+        <DockPanel Grid.Column="1" Margin="10">
+            <StatusBar DockPanel.Dock="Bottom">
+                <StatusBar.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="100" />
+                            </Grid.ColumnDefinitions>
+                        </Grid>
+                    </ItemsPanelTemplate>
+                </StatusBar.ItemsPanel>
+                <StatusBarItem>
+                    <TextBlock Name="lblCursor" />
+                </StatusBarItem>
+                <Separator Grid.Column="1" />
+                <StatusBarItem Grid.Column="2">
+                    <TextBlock Text="c:\path\of\current\file.txt" />
+                </StatusBarItem>
+                <Separator Grid.Column="3" />
+                <StatusBarItem Grid.Column="4">
+                    <ProgressBar Value="50" Width="90" Height="16" />
+                </StatusBarItem>
+            </StatusBar>
+            <TextBox AcceptsReturn="True" Name="txtEdit" SelectionChanged ="txtEdit_SelectionChanged"/>
+        </DockPanel>
+
+
+    </Grid>
+</Window>

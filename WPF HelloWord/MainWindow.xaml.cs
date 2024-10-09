@@ -180,5 +180,83 @@ namespace WPF_HelloWord
             E20MessageBox e20MessageBox = new E20MessageBox();
             e20MessageBox.ShowDialog();
         }
+
+        private void btnOpenFileDialog_Click(object sender, RoutedEventArgs e)
+        {
+            E21OpenFileDialog e21OpenFileDialog = new E21OpenFileDialog("12","3112");
+            e21OpenFileDialog.ShowDialog(); 
+        }
+
+        private void btnMenuControl_Click(object sender, RoutedEventArgs e)
+        {
+            E22MenuControl E22MenuControl = new E22MenuControl();
+            E22MenuControl.ShowDialog();
+        }
+
+        private void btnContextMenu_Click(object sender, RoutedEventArgs e)
+        {
+            E23ContextMenu e23ContextMenu = new E23ContextMenu();
+            e23ContextMenu.ShowDialog();
+        }
+
+        private void btnToolBarcontrol_Click(object sender, RoutedEventArgs e)
+        {
+            E24ToolBarcontrol e24ToolBarcontrol = new E24ToolBarcontrol();
+            e24ToolBarcontrol.ShowDialog();
+        }
+
+        private void btnStatusBarcontrol_Click(object sender, RoutedEventArgs e)
+        {
+            E25StatusBarcontrol e25StatusBarcontrol = new E25StatusBarcontrol();
+            e25StatusBarcontrol.ShowDialog();
+        }
+
+        private void btnFlowDocumentScrollViewercontrol_Click(object sender, RoutedEventArgs e)
+        {
+            E26FlowDocumentScrollViewer e26FlowDocumentScrollViewer = new E26FlowDocumentScrollViewer();
+            e26FlowDocumentScrollViewer.ShowDialog();
+        }
+
+        private void btnFlowDocumentPageViewer_Click(object sender, RoutedEventArgs e)
+        {
+            E27FlowDocumentPageViewerControl e27FlowDocumentPageViewerControl = new E27FlowDocumentPageViewerControl();
+            e27FlowDocumentPageViewerControl.ShowDialog();
+        }
+
+        private void btnBordercontrol_Click(object sender, RoutedEventArgs e)
+        {
+            E29BorderControl e29BorderControl = new E29BorderControl();
+            e29BorderControl.ShowDialog();
+        }
+
+        private void btnSlidercontrol_Click(object sender, RoutedEventArgs e)
+        {
+            E30Slidercontrol e30Slidercontrol = new E30Slidercontrol();
+            e30Slidercontrol.ShowDialog();
+        }
+
+        private void btnProgressBar_Click(object sender, RoutedEventArgs e)
+        {
+            E31ProgressBarcontrol e31ProgressBarcontrol = new E31ProgressBarcontrol();
+            e31ProgressBarcontrol.ShowDialog();
+        }
+
+        private void btnWebBrowsercontrol_Click(object sender, RoutedEventArgs e)
+        {
+            E32WebBrowerControl e32WebBrowerControl = new E32WebBrowerControl();
+            e32WebBrowerControl.ShowDialog();
+        }
+
+        private void btnGroupBoxcontrol_Click(object sender, RoutedEventArgs e)
+        {
+            E33GroupboxControl e33GroupboxControl  = new E33GroupboxControl();
+            e33GroupboxControl.ShowDialog();
+        }
+
+        private void btnDateTime_Calendar_Click(object sender, RoutedEventArgs e)
+        {
+            E34Datetime_CalendarControl e34Datetime_CalendarControl = new E34Datetime_CalendarControl();
+            e34Datetime_CalendarControl.ShowDialog();
+        }
     }
 }

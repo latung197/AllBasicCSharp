@@ -1,0 +1,95 @@
+﻿<Window x:Class="WPF_HelloWord.Form.E34Datetime_CalendarControl"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_HelloWord.Form"
+        mc:Ignorable="d"
+        Title="E34Datetime_CalendarControl" Height="900" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock HorizontalAlignment="Center">Lịch</TextBlock>
+        <Calendar Margin="10,0,10,10" Width="150" Height="120">
+        </Calendar>
+
+        <TextBlock Grid.Row="1" HorizontalAlignment="Center">Hiển thị ngày 1/1/2014</TextBlock>
+        <Viewbox Grid.Row="1" Margin="10">
+            <Calendar DisplayDate="01.01.2014"/>
+        </Viewbox>
+
+        <TextBlock Grid.Row="2" HorizontalAlignment="Center">Hiển thị vừa với khung</TextBlock>
+        <Viewbox Stretch="Fill" StretchDirection="UpOnly" Grid.Row="2" Margin="10">
+            <Calendar />
+        </Viewbox>
+
+        <TextBlock Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center">Cho phép chọn một ngày</TextBlock>
+        <Viewbox Margin="10" Grid.Row="0" Grid.Column="1">
+            <Calendar SelectionMode="SingleRange" />
+        </Viewbox>
+        
+        <TextBlock Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center">Cho phép chọn nhiều ngày</TextBlock>
+        <Viewbox Margin="10" Grid.Row="1" Grid.Column="1">
+            <Calendar SelectionMode="MultipleRange" />
+        </Viewbox>
+
+        <StackPanel Margin="10" Grid.Row="3">
+            <Calendar Name="cldSample" SelectionMode="MultipleRange" SelectedDate="10.10.2013" Height="140"/>
+            <Label>Selected date:</Label>
+            <TextBox Text="{Binding ElementName=cldSample, Path=SelectedDate, StringFormat=d, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+        <TextBlock Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center">Bôi đen để chọn</TextBlock>
+        <StackPanel Margin="10" Grid.Row="2" Grid.Column="1">
+            <Calendar Name="cldSample1" SelectionMode="MultipleRange" Height="100">
+                <Calendar.BlackoutDates>
+                    <CalendarDateRange Start="10.13.2013" End="10.19.2013" />
+                    <CalendarDateRange Start="10.27.2013" End="10.31.2013" />
+                </Calendar.BlackoutDates>
+            </Calendar>
+            <Label>Selected dates:</Label>
+            <ListBox ItemsSource="{Binding ElementName=cldSample1, Path=SelectedDates}" MinHeight="150" />
+        </StackPanel>
+
+        <TextBlock  Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center">Hiện thị Năm</TextBlock>
+        <Viewbox Grid.Row="3" Grid.Column="1">
+            <Calendar DisplayMode="Decade" />
+        </Viewbox>
+
+        <TextBlock  Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center">Hiện thị Tháng</TextBlock>
+        <Viewbox Grid.Row="0" Grid.Column="2">
+            <Calendar DisplayMode="Year" />
+        </Viewbox>
+
+        <StackPanel Margin="10" Grid.Row="1" Grid.Column="2">
+            <Label>Name: DateTime Picker</Label>
+            <TextBox />
+            <Label>Birthday:</Label>
+            <DatePicker></DatePicker>
+            <Label>Gender:</Label>
+            <ComboBox>
+                <ComboBoxItem>Female</ComboBoxItem>
+                <ComboBoxItem>Male</ComboBoxItem>
+            </ComboBox>
+            <Button Margin="20">Signup</Button>
+        </StackPanel>
+
+        <DatePicker Grid.Row="2" Grid.Column="2" SelectedDate="2000-12-31" SelectedDateFormat="Long" Margin="10"></DatePicker>
+
+        <DatePicker Grid.Row="3" Grid.Column="2" Name="dp1" Margin="10">
+            <DatePicker.BlackoutDates>
+                <CalendarDateRange Start="2019-04-01" End="2019-04-07" />
+                <CalendarDateRange Start="2019-04-22" End="2019-04-28" />
+            </DatePicker.BlackoutDates>
+        </DatePicker>
+    </Grid>
+</Window>
