@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "D:\\TungLV\\Project\\AllBasicCSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|d:\\tunglv\\project\\allbasiccsharp\\wpf helloword\\form\\e34datetime_calendarcontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|solutionrelative:wpf helloword\\form\\e34datetime_calendarcontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|d:\\tunglv\\project\\allbasiccsharp\\wpf helloword\\form\\e41treeview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|solutionrelative:wpf helloword\\form\\e41treeview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|d:\\tunglv\\project\\allbasiccsharp\\wpf helloword\\form\\e34datetime_calendarcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|solutionrelative:wpf helloword\\form\\e34datetime_calendarcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|d:\\tunglv\\project\\allbasiccsharp\\wpf helloword\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|solutionrelative:wpf helloword\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|d:\\tunglv\\project\\allbasiccsharp\\wpf helloword\\form\\e41treeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|solutionrelative:wpf helloword\\form\\e41treeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|d:\\tunglv\\project\\allbasiccsharp\\wpf helloword\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|solutionrelative:wpf helloword\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|d:\\tunglv\\project\\allbasiccsharp\\wpf helloword\\form\\e33groupboxcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|solutionrelative:wpf helloword\\form\\e33groupboxcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|d:\\tunglv\\project\\allbasiccsharp\\wpf helloword\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|solutionrelative:wpf helloword\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|d:\\tunglv\\project\\allbasiccsharp\\wpf helloword\\form\\e32webbrowercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|solutionrelative:wpf helloword\\form\\e32webbrowercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|d:\\tunglv\\project\\allbasiccsharp\\wpf helloword\\form\\e40listview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|solutionrelative:wpf helloword\\form\\e40listview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|d:\\tunglv\\project\\allbasiccsharp\\wpf helloword\\form\\e32webbrowercontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|solutionrelative:wpf helloword\\form\\e32webbrowercontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|d:\\tunglv\\project\\allbasiccsharp\\wpf helloword\\form\\e40listview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|solutionrelative:wpf helloword\\form\\e40listview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +34,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPF HelloWord\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WPF HelloWord\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAoBAAAAAAAAAAAwwCwBAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T10:32:21.454Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
@@ -47,88 +57,63 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "E34Datetime_CalendarControl.xaml.cs",
-              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E34Datetime_CalendarControl.xaml.cs",
-              "RelativeDocumentMoniker": "WPF HelloWord\\Form\\E34Datetime_CalendarControl.xaml.cs",
-              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E34Datetime_CalendarControl.xaml.cs",
-              "RelativeToolTip": "WPF HelloWord\\Form\\E34Datetime_CalendarControl.xaml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Title": "E41TreeView.xaml.cs",
+              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E41TreeView.xaml.cs",
+              "RelativeDocumentMoniker": "WPF HelloWord\\Form\\E41TreeView.xaml.cs",
+              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E41TreeView.xaml.cs",
+              "RelativeToolTip": "WPF HelloWord\\Form\\E41TreeView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T10:15:35.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "E34Datetime_CalendarControl.xaml",
-              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E34Datetime_CalendarControl.xaml",
-              "RelativeDocumentMoniker": "WPF HelloWord\\Form\\E34Datetime_CalendarControl.xaml",
-              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E34Datetime_CalendarControl.xaml",
-              "RelativeToolTip": "WPF HelloWord\\Form\\E34Datetime_CalendarControl.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-09T10:15:21.872Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "E33GroupboxControl.xaml",
-              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E33GroupboxControl.xaml",
-              "RelativeDocumentMoniker": "WPF HelloWord\\Form\\E33GroupboxControl.xaml",
-              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E33GroupboxControl.xaml",
-              "RelativeToolTip": "WPF HelloWord\\Form\\E33GroupboxControl.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-09T10:00:36.626Z",
+              "WhenOpened": "2024-10-10T10:48:40.326Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WPF HelloWord\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\MainWindow.xaml.cs",
-              "RelativeToolTip": "WPF HelloWord\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAOoAAAAAAAAAAADwvwEBAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T09:49:38.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WPF HelloWord\\MainWindow.xaml",
               "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\MainWindow.xaml",
               "RelativeToolTip": "WPF HelloWord\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-09T09:49:05.038Z",
+              "WhenOpened": "2024-10-10T10:30:57.279Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "E32WebBrowerControl.xaml.cs",
-              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E32WebBrowerControl.xaml.cs",
-              "RelativeDocumentMoniker": "WPF HelloWord\\Form\\E32WebBrowerControl.xaml.cs",
-              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E32WebBrowerControl.xaml.cs",
-              "RelativeToolTip": "WPF HelloWord\\Form\\E32WebBrowerControl.xaml.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBgAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T09:47:25.399Z",
+              "DocumentIndex": 1,
+              "Title": "E41TreeView.xaml",
+              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E41TreeView.xaml",
+              "RelativeDocumentMoniker": "WPF HelloWord\\Form\\E41TreeView.xaml",
+              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E41TreeView.xaml",
+              "RelativeToolTip": "WPF HelloWord\\Form\\E41TreeView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-10T10:20:20.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "E32WebBrowerControl.xaml",
-              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E32WebBrowerControl.xaml",
-              "RelativeDocumentMoniker": "WPF HelloWord\\Form\\E32WebBrowerControl.xaml",
-              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E32WebBrowerControl.xaml",
-              "RelativeToolTip": "WPF HelloWord\\Form\\E32WebBrowerControl.xaml",
+              "Title": "E40ListView.xaml",
+              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E40ListView.xaml",
+              "RelativeDocumentMoniker": "WPF HelloWord\\Form\\E40ListView.xaml",
+              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E40ListView.xaml",
+              "RelativeToolTip": "WPF HelloWord\\Form\\E40ListView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-09T09:42:54.284Z",
+              "WhenOpened": "2024-10-10T09:09:32.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "E40ListView.xaml.cs",
+              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E40ListView.xaml.cs",
+              "RelativeDocumentMoniker": "WPF HelloWord\\Form\\E40ListView.xaml.cs",
+              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E40ListView.xaml.cs",
+              "RelativeToolTip": "WPF HelloWord\\Form\\E40ListView.xaml.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAASwIAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T09:09:35.882Z",
               "EditorCaption": ""
             }
           ]

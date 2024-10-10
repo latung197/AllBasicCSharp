@@ -258,5 +258,47 @@ namespace WPF_HelloWord
             E34Datetime_CalendarControl e34Datetime_CalendarControl = new E34Datetime_CalendarControl();
             e34Datetime_CalendarControl.ShowDialog();
         }
+
+        private void btnExpander_Click(object sender, RoutedEventArgs e)
+        {
+            E35Expandercontrol e35Expandercontrol = new E35Expandercontrol();
+            e35Expandercontrol.ShowDialog();    
+        }
+
+        private void btnTabcontrol_Click(object sender, RoutedEventArgs e)
+        {
+            E36TabControl e36TabControl = new E36TabControl();
+            e36TabControl.ShowDialog();
+        }
+
+        private void btnItemsControl_Click(object sender, RoutedEventArgs e)
+        {
+            E37ItemsControl e37ItemsControl = new E37ItemsControl();
+            e37ItemsControl.ShowDialog();
+        }
+
+        private void btnListBox_Click(object sender, RoutedEventArgs e)
+        {
+            E39ListBoxControl e39ListBoxControl = new E39ListBoxControl();
+            e39ListBoxControl.ShowDialog();
+        }
+
+        private void btnCombobox_Click(object sender, RoutedEventArgs e)
+        {
+            E38ComboBox e38ComboBox = new E38ComboBox();
+            e38ComboBox.ShowDialog();
+        }
+
+        private void btnListView_Click(object sender, RoutedEventArgs e)
+        {
+            E40ListView e40ListView = new E40ListView();
+            e40ListView.ShowDialog();
+        }
+
+        private void btnTreeView_Click(object sender, RoutedEventArgs e)
+        {
+            E41TreeView e41TreeView = new E41TreeView();
+            e41TreeView.ShowDialog();
+        }
     }
 }

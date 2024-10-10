@@ -100,8 +100,21 @@ D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E31
 D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E31ProgressBarcontrol.baml
 D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E32WebBrowerControl.g.cs
 D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E32WebBrowerControl.baml
-D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\WPF HelloWord.csproj.ResolveComReference.cache
 D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E33GroupboxControl.g.cs
 D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E33GroupboxControl.baml
 D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E34Datetime_CalendarControl.g.cs
 D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E34Datetime_CalendarControl.baml
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E35Expandercontrol.g.cs
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E35Expandercontrol.baml
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E36TabControl.g.cs
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E36TabControl.baml
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E37ItemsControl.g.cs
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E37ItemsControl.baml
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E39ListBoxControl.g.cs
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E39ListBoxControl.baml
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E38ComboBox.g.cs
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E38ComboBox.baml
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E40ListView.g.cs
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E40ListView.baml
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E41TreeView.g.cs
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E41TreeView.baml

@@ -1,0 +1,200 @@
+﻿<Window x:Class="WPF_HelloWord.Form.E40ListView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_HelloWord.Form"
+        mc:Ignorable="d"
+        Title="E40ListView" Height="800" Width="1200">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <ListView Margin="10">
+            <ListViewItem>A ListView</ListViewItem>
+            <ListViewItem IsSelected="True">with several</ListViewItem>
+            <ListViewItem>items</ListViewItem>
+        </ListView>
+
+        <ListView Margin="10" Grid.Row="1">
+            <ListViewItem>
+                <StackPanel Orientation="Horizontal">
+                    <Ellipse Width="10" Height="10" Fill="Green"/>
+                    <TextBlock>Green</TextBlock>
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem>
+                <StackPanel Orientation="Horizontal">
+                    <Ellipse Width="10" Height="10" Fill="Blue"/>
+                    <TextBlock>Blue</TextBlock>
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem IsSelected="True">
+                <StackPanel Orientation="Horizontal">
+                    <Ellipse Width="10" Height="10" Fill="Red"/>
+                    <TextBlock>Red</TextBlock>
+                </StackPanel>
+            </ListViewItem>
+        </ListView>
+
+        <StackPanel Grid.Row="2">
+            <TextBlock HorizontalAlignment="Center">ListView Binding</TextBlock>
+            <ListView Margin="10" Name="lvDataBinding1"></ListView>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Margin="10">
+            <TextBlock HorizontalAlignment="Center">Chỉnh mẫu với Listview</TextBlock>
+            <ListView Name="lvDataBinding">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <WrapPanel>
+                            <TextBlock Text="Name: " />
+                            <TextBlock Text="{Binding Name}" FontWeight="Bold" />
+                            <TextBlock Text=", " />
+                            <TextBlock Text="Age: " />
+                            <TextBlock Text="{Binding Age}" FontWeight="Bold" />
+                            <TextBlock Text=" (" />
+                            <TextBlock Text="{Binding Mail}" TextDecorations="Underline" Foreground="Blue" Cursor="Hand" />
+                            <TextBlock Text=")" />
+                        </WrapPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="1" Margin="10">
+            <TextBlock>List View With a GridView</TextBlock>
+            <ListView Name="lvUser" Margin="5">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Name" Width="50" DisplayMemberBinding="{Binding Name}" />
+                        <GridViewColumn Header="Age" Width="50" DisplayMemberBinding="{Binding Age}" />
+                        <GridViewColumn Header="Mail" Width="50" DisplayMemberBinding="{Binding Mail}" />
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Grid.Column="1" Margin="10">
+            <TextBlock HorizontalAlignment="Center"> Cusummer  ListView Grid </TextBlock>
+            <ListView Margin="10" Name="lvUsers2">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Name" Width="120" DisplayMemberBinding="{Binding Name}" />
+                        <GridViewColumn Header="Age" Width="50" DisplayMemberBinding="{Binding Age}" />
+                        <GridViewColumn Header="Mail" Width="150">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Mail}" TextDecorations="Underline" Foreground="Blue" Cursor="Hand" />
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </StackPanel>
+
+        <StackPanel Grid.Row="0" Grid.Column="2" Margin="5">
+            <TextBlock HorizontalAlignment="Center">Thực hiện căn lề trái tiêu đề cột</TextBlock>
+            <ListView Margin="10" Name="lvUsers3">
+                <ListView.Resources>
+                    <Style TargetType="{x:Type GridViewColumnHeader}">
+                        <Setter Property="HorizontalContentAlignment" Value="Left" />
+                    </Style>
+                </ListView.Resources>
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Name" Width="120" DisplayMemberBinding="{Binding Name}" />
+                        <GridViewColumn Header="Age" Width="50" DisplayMemberBinding="{Binding Age}" />
+                        <GridViewColumn Header="Mail" Width="150" DisplayMemberBinding="{Binding Mail}" />
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="2">
+            <TextBlock HorizontalAlignment="Center">List View Group</TextBlock>
+
+            <ListView Name="lvUser4">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Name" Width="120" DisplayMemberBinding="{Binding Name}" />
+                        <GridViewColumn Header="Age" Width="50" DisplayMemberBinding="{Binding Age}" />
+                    </GridView>
+                </ListView.View>
+                <ListView.GroupStyle>
+                    <GroupStyle>
+                        <GroupStyle.HeaderTemplate>
+                            <DataTemplate>
+                                <TextBlock FontWeight="Bold" FontSize="14" Text="{Binding Name}"/>
+                            </DataTemplate>
+                        </GroupStyle.HeaderTemplate>
+                    </GroupStyle>
+                </ListView.GroupStyle>
+            </ListView>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Grid.Column="2" Margin="5">
+            <TextBlock HorizontalAlignment="Center">ListView sorting</TextBlock>
+            <ListView Name="lvUser5">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Name" Width="80" DisplayMemberBinding="{Binding Name}"/>
+                        <GridViewColumn Header="Name" Width="80" DisplayMemberBinding="{Binding Age}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </StackPanel>
+
+        <StackPanel Grid.Row="0" Grid.Column="3" Margin="5">
+            <TextBlock>ListView Auto Sorting on Click</TextBlock>
+            <ListView Name="lvUsers6">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Width="120" DisplayMemberBinding="{Binding Name}">
+                            <GridViewColumn.Header>
+                                <GridViewColumnHeader Tag="Name" Click="lvUsersColumnHeader_Click">Name</GridViewColumnHeader>
+                            </GridViewColumn.Header>
+                        </GridViewColumn>
+                        <GridViewColumn Width="80" DisplayMemberBinding="{Binding Age}">
+                            <GridViewColumn.Header>
+                                <GridViewColumnHeader Tag="Age" Click="lvUsersColumnHeader_Click">Age</GridViewColumnHeader>
+                            </GridViewColumn.Header>
+                        </GridViewColumn>
+                        <GridViewColumn Width="80" DisplayMemberBinding="{Binding Sex}">
+                            <GridViewColumn.Header>
+                                <GridViewColumnHeader Tag="Sex" Click="lvUsersColumnHeader_Click">Sex</GridViewColumnHeader>
+                            </GridViewColumn.Header>
+                        </GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="3">
+            <TextBlock HorizontalAlignment="Center" Margin="5">Filter</TextBlock>
+            <DockPanel Margin="10">
+                <TextBox DockPanel.Dock="Top" Margin="0,0,0,10" Name="txtFilter" TextChanged="txtFilter_TextChanged" />
+                <ListView Name="lvUsers7">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Name" Width="120" DisplayMemberBinding="{Binding Name}" />
+                            <GridViewColumn Header="Age" Width="50" DisplayMemberBinding="{Binding Age}" />
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </DockPanel>
+        </StackPanel>
+    </Grid>
+
+
+
+</Window>

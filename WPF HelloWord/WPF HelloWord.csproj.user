@@ -124,6 +124,27 @@
     <Compile Update="Form\E33GroupboxControl.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Form\E35Expandercontrol.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E36TabControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E37ItemsControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E38ComboBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E39ListBoxControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E40ListView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Form\E41TreeView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Form\Resource.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -247,6 +268,27 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Form\E33GroupboxControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E35Expandercontrol.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E36TabControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E37ItemsControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E38ComboBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E39ListBoxControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E40ListView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Form\E41TreeView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Form\Resource.xaml">
