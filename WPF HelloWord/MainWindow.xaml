@@ -48,7 +48,8 @@
         <Button FontWeight="Bold" Foreground="Green" x:Name="btnCombobox" Content="ComboBox Control" HorizontalAlignment="Left" Margin="431,310,0,0" VerticalAlignment="Top" Width="225" Click="btnCombobox_Click"/>
         <Button FontWeight="Bold" Foreground="Green" x:Name="btnListView" Content="ListView Control" HorizontalAlignment="Left" Margin="431,335,0,0" VerticalAlignment="Top" Width="225" Click="btnListView_Click"/>
         <Button FontWeight="Bold" Foreground="Green" x:Name="btnTreeView" Content="TreeeView Control" HorizontalAlignment="Left" Margin="686,35,0,0" VerticalAlignment="Top" Width="225" Click="btnTreeView_Click"/>
-
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnDataGrid" Content="DataGrid Control" HorizontalAlignment="Left" Margin="686,60,0,0" VerticalAlignment="Top" Width="225" Click="btnDataGrid_Click"/>
+        <Button FontWeight="Bold" Foreground="Green" x:Name="btnTrigger" Content="Trigger And Event Trigger" HorizontalAlignment="Left" Margin="686,85,0,0" VerticalAlignment="Top" Width="225" Click="btnTrigger_Click"/>
     </Grid>
 
 </Window>

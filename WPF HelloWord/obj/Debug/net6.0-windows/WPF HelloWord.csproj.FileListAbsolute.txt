@@ -118,3 +118,9 @@ D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E40
 D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E40ListView.baml
 D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E41TreeView.g.cs
 D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E41TreeView.baml
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E42DataGrid.g.cs
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E42DataGrid.baml
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E43Style.g.cs
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E43Style.baml
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E44TriggerAndEventTrigger.g.cs
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E44TriggerAndEventTrigger.baml

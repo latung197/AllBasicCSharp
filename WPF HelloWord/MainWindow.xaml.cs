@@ -300,5 +300,17 @@ namespace WPF_HelloWord
             E41TreeView e41TreeView = new E41TreeView();
             e41TreeView.ShowDialog();
         }
+
+        private void btnDataGrid_Click(object sender, RoutedEventArgs e)
+        {
+            E42DataGrid e42DataGrid = new E42DataGrid();
+            e42DataGrid.ShowDialog();
+        }
+
+        private void btnTrigger_Click(object sender, RoutedEventArgs e)
+        {
+            E44TriggerAndEventTrigger e44TriggerAndEventTrigger = new E44TriggerAndEventTrigger();
+            e44TriggerAndEventTrigger.ShowDialog();
+        }
     }
 }

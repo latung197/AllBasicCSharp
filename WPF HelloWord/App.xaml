@@ -6,5 +6,10 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <sys:String x:Key="ComboBoxTitle">Items:</sys:String>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="Gray" />
+            <Setter Property="FontSize" Value="12" />
+        </Style>
+
     </Application.Resources>
 </Application>
