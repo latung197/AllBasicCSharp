@@ -312,5 +312,17 @@ namespace WPF_HelloWord
             E44TriggerAndEventTrigger e44TriggerAndEventTrigger = new E44TriggerAndEventTrigger();
             e44TriggerAndEventTrigger.ShowDialog();
         }
+
+        private void btnAudioPlay_Click(object sender, RoutedEventArgs e)
+        {
+            E45PlayingAudio e45PlayingAudio = new E45PlayingAudio();
+            e45PlayingAudio.ShowDialog();
+        }
+
+        private void btnVideoPlay_Click(object sender, RoutedEventArgs e)
+        {
+            E46PlayingVideo e46PlayingVideo = new E46PlayingVideo();
+            e46PlayingVideo.ShowDialog();
+        }
     }
 }

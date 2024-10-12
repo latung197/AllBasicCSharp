@@ -124,3 +124,7 @@ D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E43
 D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E43Style.baml
 D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E44TriggerAndEventTrigger.g.cs
 D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E44TriggerAndEventTrigger.baml
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E45PlayingAudio.g.cs
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E45PlayingAudio.baml
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E46PlayingVideo.g.cs
+D:\TungLV\Project\AllBasicCSharp\WPF HelloWord\obj\Debug\net6.0-windows\Form\E46PlayingVideo.baml
