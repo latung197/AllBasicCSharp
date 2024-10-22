@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\TungLV\\Project\\AllBasicCSharp\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|d:\\tunglv\\project\\allbasiccsharp\\wpf helloword\\form\\e46playingvideo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|solutionrelative:wpf helloword\\form\\e46playingvideo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,23 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "E46PlayingVideo.xaml",
-              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E46PlayingVideo.xaml",
-              "RelativeDocumentMoniker": "WPF HelloWord\\Form\\E46PlayingVideo.xaml",
-              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\Form\\E46PlayingVideo.xaml",
-              "RelativeToolTip": "WPF HelloWord\\Form\\E46PlayingVideo.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-12T03:58:47.491Z",
-              "EditorCaption": ""
             }
           ]
         }
