@@ -28,58 +28,126 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.Stt = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.Tên = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.btnCreateImgae = new System.Windows.Forms.Button();
+            this.txtPathExcel = new System.Windows.Forms.TextBox();
+            this.btnPathExcel = new System.Windows.Forms.Button();
+            this.txtPathInput = new System.Windows.Forms.TextBox();
+            this.txtPathOutput = new System.Windows.Forms.TextBox();
+            this.btnPathImageInput = new System.Windows.Forms.Button();
+            this.btnPathImageOutput = new System.Windows.Forms.Button();
+            this.btnCreateTemplateExcel = new System.Windows.Forms.Button();
+            this.prbTienTrinh = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
-            // button1
+            // btnCreateImgae
             // 
-            this.button1.Location = new System.Drawing.Point(318, 78);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnCreateImgae.Location = new System.Drawing.Point(54, 302);
+            this.btnCreateImgae.Name = "btnCreateImgae";
+            this.btnCreateImgae.Size = new System.Drawing.Size(75, 23);
+            this.btnCreateImgae.TabIndex = 1;
+            this.btnCreateImgae.Text = "Tạo ảnh";
+            this.btnCreateImgae.UseVisualStyleBackColor = true;
+            this.btnCreateImgae.Click += new System.EventHandler(this.btnCreateImage);
             // 
-            // listView1
+            // txtPathExcel
             // 
-            this.listView1.CheckBoxes = true;
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.Stt,
-            this.Tên});
-            this.listView1.FullRowSelect = true;
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(108, 224);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(121, 97);
-            this.listView1.TabIndex = 2;
-            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.txtPathExcel.Location = new System.Drawing.Point(54, 52);
+            this.txtPathExcel.Name = "txtPathExcel";
+            this.txtPathExcel.Size = new System.Drawing.Size(319, 20);
+            this.txtPathExcel.TabIndex = 2;
             // 
-            // Tên
+            // btnPathExcel
             // 
-            this.Tên.Width = 100;
+            this.btnPathExcel.Location = new System.Drawing.Point(388, 49);
+            this.btnPathExcel.Name = "btnPathExcel";
+            this.btnPathExcel.Size = new System.Drawing.Size(136, 23);
+            this.btnPathExcel.TabIndex = 3;
+            this.btnPathExcel.Text = "File Exel Text";
+            this.btnPathExcel.UseVisualStyleBackColor = true;
+            this.btnPathExcel.Click += new System.EventHandler(this.btnPathExcel_Click);
+            // 
+            // txtPathInput
+            // 
+            this.txtPathInput.Location = new System.Drawing.Point(54, 106);
+            this.txtPathInput.Name = "txtPathInput";
+            this.txtPathInput.Size = new System.Drawing.Size(319, 20);
+            this.txtPathInput.TabIndex = 4;
+            // 
+            // txtPathOutput
+            // 
+            this.txtPathOutput.Location = new System.Drawing.Point(54, 164);
+            this.txtPathOutput.Name = "txtPathOutput";
+            this.txtPathOutput.Size = new System.Drawing.Size(319, 20);
+            this.txtPathOutput.TabIndex = 5;
+            // 
+            // btnPathImageInput
+            // 
+            this.btnPathImageInput.Location = new System.Drawing.Point(388, 106);
+            this.btnPathImageInput.Name = "btnPathImageInput";
+            this.btnPathImageInput.Size = new System.Drawing.Size(136, 23);
+            this.btnPathImageInput.TabIndex = 6;
+            this.btnPathImageInput.Text = "Thư mục ảnh Input";
+            this.btnPathImageInput.UseVisualStyleBackColor = true;
+            this.btnPathImageInput.Click += new System.EventHandler(this.btnPathImageInput_Click);
+            // 
+            // btnPathImageOutput
+            // 
+            this.btnPathImageOutput.Location = new System.Drawing.Point(388, 161);
+            this.btnPathImageOutput.Name = "btnPathImageOutput";
+            this.btnPathImageOutput.Size = new System.Drawing.Size(136, 23);
+            this.btnPathImageOutput.TabIndex = 7;
+            this.btnPathImageOutput.Text = "Thư mục ảnh Output";
+            this.btnPathImageOutput.UseVisualStyleBackColor = true;
+            this.btnPathImageOutput.Click += new System.EventHandler(this.btnPathImageOutput_Click);
+            // 
+            // btnCreateTemplateExcel
+            // 
+            this.btnCreateTemplateExcel.Location = new System.Drawing.Point(54, 206);
+            this.btnCreateTemplateExcel.Name = "btnCreateTemplateExcel";
+            this.btnCreateTemplateExcel.Size = new System.Drawing.Size(136, 23);
+            this.btnCreateTemplateExcel.TabIndex = 8;
+            this.btnCreateTemplateExcel.Text = "Tạo file Excel mẫu";
+            this.btnCreateTemplateExcel.UseVisualStyleBackColor = true;
+            this.btnCreateTemplateExcel.Click += new System.EventHandler(this.btnCreateTemplateExcel_Click);
+            // 
+            // prbTienTrinh
+            // 
+            this.prbTienTrinh.Location = new System.Drawing.Point(54, 255);
+            this.prbTienTrinh.Name = "prbTienTrinh";
+            this.prbTienTrinh.Size = new System.Drawing.Size(319, 23);
+            this.prbTienTrinh.TabIndex = 9;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(454, 482);
-            this.Controls.Add(this.listView1);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(597, 381);
+            this.Controls.Add(this.prbTienTrinh);
+            this.Controls.Add(this.btnCreateTemplateExcel);
+            this.Controls.Add(this.btnPathImageOutput);
+            this.Controls.Add(this.btnPathImageInput);
+            this.Controls.Add(this.txtPathOutput);
+            this.Controls.Add(this.txtPathInput);
+            this.Controls.Add(this.btnPathExcel);
+            this.Controls.Add(this.txtPathExcel);
+            this.Controls.Add(this.btnCreateImgae);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.ColumnHeader Stt;
-        private System.Windows.Forms.ColumnHeader Tên;
+        private System.Windows.Forms.Button btnCreateImgae;
+        private System.Windows.Forms.TextBox txtPathExcel;
+        private System.Windows.Forms.Button btnPathExcel;
+        private System.Windows.Forms.TextBox txtPathInput;
+        private System.Windows.Forms.TextBox txtPathOutput;
+        private System.Windows.Forms.Button btnPathImageInput;
+        private System.Windows.Forms.Button btnPathImageOutput;
+        private System.Windows.Forms.Button btnCreateTemplateExcel;
+        private System.Windows.Forms.ProgressBar prbTienTrinh;
     }
 }
 

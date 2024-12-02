@@ -19,3 +19,4 @@ D:\TungLV\Project\AllBasicCSharp\WPFMVVM\obj\Debug\net6.0-windows\refint\WPFMVVM
 D:\TungLV\Project\AllBasicCSharp\WPFMVVM\obj\Debug\net6.0-windows\WPFMVVM.pdb
 D:\TungLV\Project\AllBasicCSharp\WPFMVVM\obj\Debug\net6.0-windows\WPFMVVM.genruntimeconfig.cache
 D:\TungLV\Project\AllBasicCSharp\WPFMVVM\obj\Debug\net6.0-windows\ref\WPFMVVM.dll
+D:\TungLV\Project\AllBasicCSharp\WPFMVVM\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs

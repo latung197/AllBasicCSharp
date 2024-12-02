@@ -4,9 +4,28 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFMVVM"
+        xmlns:model="clr-namespace:WPFMVVM.Models"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+    <Window.Resources>
+        <model:Person x:Key="m"></model:Person>
+    </Window.Resources>
+    <Grid DataContext="{Binding Source={StaticResource m}}"
+          Width="400" Height="Auto" HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="90"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Content="First Name : "></Label>
+        <Label Grid.Row="1" Grid.Column="0" Content="Last Name : "></Label>
+        <Label Grid.Row="2" Grid.Column="0" Content="Full Name : "></Label>
+        <TextBox Name="txtId" Grid.Row="0" Grid.Column="1" Text="{Binding Path=FirstName,UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <TextBox Name="txtName" Grid.Row="1" Grid.Column="1" Text="{Binding Path=LastName,UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding Path=FullName,UpdateSourceTrigger=PropertyChanged}"></TextBox>
     </Grid>
 </Window>
