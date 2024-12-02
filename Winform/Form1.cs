@@ -24,7 +24,6 @@ namespace Winform
         {
             InitializeComponent();
             LoadSettings();
-
         }
         private void LoadSettings()
         { 
