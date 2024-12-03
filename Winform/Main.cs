@@ -14,26 +14,44 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Winform
 {
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
         private string excelFilePath;
         private string imagesDirectory;
         private string outputDirectory;
+        private int newWidth = 0;
+        private int newHeight = 0;
+        private int resizedWidth = 0;
+        private int resizedHeight = 0;
+        private int numberWordTitle = 0;
+        private int numberWordContent = 0;
 
-        public Form1()
+        public Main()
         {
             InitializeComponent();
             LoadSettings();
         }
         private void LoadSettings()
-        { 
+        {
             excelFilePath = ConfigurationManager.AppSettings["ExcelFilePath"];
             imagesDirectory = ConfigurationManager.AppSettings["ImagesDirectory"];
             outputDirectory = ConfigurationManager.AppSettings["OutputDirectory"];
 
+            newWidth = int.Parse(ConfigurationManager.AppSettings["newWidth"]);
+            newHeight = int.Parse(ConfigurationManager.AppSettings["newHeight"]);
+            resizedWidth = int.Parse(ConfigurationManager.AppSettings["resizedWidth"]);
+            resizedHeight = int.Parse(ConfigurationManager.AppSettings["resizedHeight"]);
+            numberWordTitle = int.Parse(ConfigurationManager.AppSettings["numberWordTitle"]);
+            numberWordContent = int.Parse(ConfigurationManager.AppSettings["numberWordContent"]);
+            nbrHightBackgroud.Value = newHeight;
+            nbrWidthBackgroud.Value = newWidth;
+            nbrHighImg.Value = resizedHeight;
+            nbrWidthImg.Value = newWidth;
             txtPathExcel.Text = excelFilePath;
             txtPathInput.Text = imagesDirectory;
             txtPathOutput.Text = outputDirectory;
+            nbrLineContent.Value = numberWordContent;
+            nbrLineTitle.Value = numberWordTitle;
         }
 
         private void SaveSettings()
@@ -42,18 +60,21 @@ namespace Winform
             config.AppSettings.Settings["ExcelFilePath"].Value = excelFilePath;
             config.AppSettings.Settings["ImagesDirectory"].Value = imagesDirectory;
             config.AppSettings.Settings["OutputDirectory"].Value = outputDirectory;
+
+            config.AppSettings.Settings["newWidth"].Value = newWidth.ToString();
+            config.AppSettings.Settings["newHeight"].Value = newHeight.ToString();
+            config.AppSettings.Settings["resizedWidth"].Value = resizedWidth.ToString();
+            config.AppSettings.Settings["resizedHeight"].Value = resizedHeight.ToString();
+
             config.Save(ConfigurationSaveMode.Modified);
             ConfigurationManager.RefreshSection("appSettings");
         }
 
         public void ProcessImage(string inputPathImg, string outPutPathImg, string textTop, string textButton)
         {
-            int newWidth = 1080;
-            int newHeight = 1920;
-            int resizedWidth = 1080;
-            int resizedHeight = 640;
-            textTop = WordWrap(textTop, 4);
-            textButton = WordWrap(textButton, 9);
+
+            textTop = WordWrap(textTop, numberWordTitle);
+            textButton = WordWrap(textButton, numberWordContent);
             // Đọc ảnh gốc
             Image originalImage = Image.FromFile(inputPathImg);
             // Tạo ảnh nền mới với kích thước 1920 x 1080
@@ -74,7 +95,7 @@ namespace Winform
                 // Căn giữa và vẽ chữ trên theo từng dòng
                 var topTextLines = textTop.Split('\n');
                 // Vị trí chữ ngay trên ảnh, cách ảnh 10 pixel
-                float topTextY = y - (topTextLines.Length * graphics.MeasureString("Sample", font).Height) - 10; 
+                float topTextY = y - (topTextLines.Length * graphics.MeasureString("Sample", font).Height) - 10;
                 foreach (var line in topTextLines)
                 {
                     SizeF topTextSize = graphics.MeasureString(line, font);
@@ -157,13 +178,19 @@ namespace Winform
                     string outputPath = Path.Combine(outputDirectory, $"output_image_{row}.jpg");
 
                     // Xử lý ảnh
-                   await Task.Run( ()=> ProcessImage(imagePath, outputPath, topText, bottomText));
+                    await Task.Run(() => ProcessImage(imagePath, outputPath, topText, bottomText));
                     prbTienTrinh.Value = row - 1;
                     // Tải ảnh lên Google Drive
                     //UploadToGoogleDrive(outputPath);
 
                     row++;
                 }
+
+                LoadAndDisplayImages(outputDirectory);
+
+                MessageBox.Show("Excel template created successfully!", "Success", MessageBoxButtons.OK);
+                prbTienTrinh.Value = 0;
+
             }
         }
 
@@ -205,6 +232,71 @@ namespace Winform
                 }
                 MessageBox.Show("Excel template created successfully!", "Success", MessageBoxButtons.OK);
             }
+        }
+
+        private void LoadAndDisplayImages(string folderPath)
+        { // Xóa các ảnh cũ khỏi
+            flpanListImgOutput.Controls.Clear();
+            // Lấy danh sách các tệp ảnh trong thư mục
+            var imageFiles = Directory.GetFiles(folderPath, "*.*").Where(file => file.ToLower().EndsWith("jpg") || file.ToLower().EndsWith("png") || file.ToLower().EndsWith("bmp")).ToList();
+            // Tải và hiển thị ảnh
+            foreach (var imageFile in imageFiles)
+            {
+                Bitmap image = LoadImageWithoutLocking(imageFile);
+
+                PictureBox pictureBox = new PictureBox
+                {
+                    Image = image,
+                    SizeMode = PictureBoxSizeMode.Zoom,
+                    Width = 500,
+                    Height = 800,
+                    Margin = new Padding(5)
+                };
+                flpanListImgOutput.Controls.Add(pictureBox);
+            }
+        }
+        // load lại ảnh
+        private Bitmap LoadImageWithoutLocking(string imagePath)
+        {
+            using (FileStream fs = new FileStream(imagePath, FileMode.Open, FileAccess.Read))
+            {
+                byte[] buffer = new byte[fs.Length];
+                fs.Read(buffer, 0, buffer.Length);
+                using (MemoryStream ms = new MemoryStream(buffer))
+                {
+                    return new Bitmap(ms);
+                }
+            }
+        }
+
+        private void nbrHightBackgroud_Validated(object sender, EventArgs e)
+        {
+            newHeight = int.Parse(nbrHightBackgroud.Value.ToString());
+        }
+
+        private void nbrWidthBackgroud_Validated(object sender, EventArgs e)
+        {
+            newWidth = int.Parse(nbrWidthBackgroud.Value.ToString());
+        }
+
+        private void nbrHighImg_Validated(object sender, EventArgs e)
+        {
+            resizedHeight = int.Parse(nbrHighImg.Value.ToString());
+        }
+
+        private void nbrWidthImg_Validated(object sender, EventArgs e)
+        {
+            resizedWidth = int.Parse(nbrWidthImg.Value.ToString());
+        }
+
+        private void nbrLineTitle_Validated(object sender, EventArgs e)
+        {
+            numberWordTitle = int.Parse(nbrLineTitle.Value.ToString());
+        }
+
+        private void nbrLineContent_Validated(object sender, EventArgs e)
+        {
+            numberWordContent = int.Parse(nbrLineContent.Value.ToString());
         }
     }
 }

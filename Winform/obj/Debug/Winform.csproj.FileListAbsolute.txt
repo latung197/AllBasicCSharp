@@ -39,7 +39,6 @@ D:\TungLV\Project\AllBasicCSharp\Winform\bin\Debug\System.Runtime.CompilerServic
 D:\TungLV\Project\AllBasicCSharp\Winform\obj\Debug\Winform.csproj.AssemblyReference.cache
 D:\TungLV\Project\AllBasicCSharp\Winform\obj\Debug\Winform.csproj.SuggestedBindingRedirects.cache
 D:\TungLV\Project\AllBasicCSharp\Winform\obj\Debug\Winform.exe.config
-D:\TungLV\Project\AllBasicCSharp\Winform\obj\Debug\Winform.Form1.resources
 D:\TungLV\Project\AllBasicCSharp\Winform\obj\Debug\Winform.Properties.Resources.resources
 D:\TungLV\Project\AllBasicCSharp\Winform\obj\Debug\Winform.csproj.GenerateResource.cache
 D:\TungLV\Project\AllBasicCSharp\Winform\obj\Debug\Winform.csproj.CoreCompileInputs.cache
@@ -48,3 +47,4 @@ D:\TungLV\Project\AllBasicCSharp\Winform\obj\Debug\Winform.exe
 D:\TungLV\Project\AllBasicCSharp\Winform\obj\Debug\Winform.pdb
 D:\TungLV\Project\AllBasicCSharp\Winform\bin\Debug\System.Configuration.ConfigurationManager.dll
 D:\TungLV\Project\AllBasicCSharp\Winform\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\TungLV\Project\AllBasicCSharp\Winform\obj\Debug\Winform.Main.resources

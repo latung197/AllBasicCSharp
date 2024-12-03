@@ -3,42 +3,16 @@
   "WorkspaceRootPath": "D:\\TungLV\\Project\\AllBasicCSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{27804217-8125-4190-BC22-AA5429BBB6D0}|Winform\\Winform.csproj|d:\\tunglv\\project\\allbasiccsharp\\winform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27804217-8125-4190-BC22-AA5429BBB6D0}|Winform\\Winform.csproj|solutionrelative:winform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{27804217-8125-4190-BC22-AA5429BBB6D0}|Winform\\Winform.csproj|d:\\tunglv\\project\\allbasiccsharp\\winform\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27804217-8125-4190-BC22-AA5429BBB6D0}|Winform\\Winform.csproj|solutionrelative:winform\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27804217-8125-4190-BC22-AA5429BBB6D0}|Winform\\Winform.csproj|D:\\TungLV\\Project\\AllBasicCSharp\\winform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{27804217-8125-4190-BC22-AA5429BBB6D0}|Winform\\Winform.csproj|solutionrelative:winform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{27804217-8125-4190-BC22-AA5429BBB6D0}|Winform\\Winform.csproj|d:\\tunglv\\project\\allbasiccsharp\\winform\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{27804217-8125-4190-BC22-AA5429BBB6D0}|Winform\\Winform.csproj|solutionrelative:winform\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27804217-8125-4190-BC22-AA5429BBB6D0}|Winform\\Winform.csproj|d:\\tunglv\\project\\allbasiccsharp\\winform\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{27804217-8125-4190-BC22-AA5429BBB6D0}|Winform\\Winform.csproj|solutionrelative:winform\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Winform||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B687C531-3CCA-4D1C-9F11-AEE8D4841863}|WPFMVVM\\WPFMVVM.csproj|D:\\TungLV\\Project\\AllBasicCSharp\\wpfmvvm\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B687C531-3CCA-4D1C-9F11-AEE8D4841863}|WPFMVVM\\WPFMVVM.csproj|solutionrelative:wpfmvvm\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|D:\\TungLV\\Project\\AllBasicCSharp\\wpf helloword\\wpf helloword.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|solutionrelative:wpf helloword\\wpf helloword.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|D:\\TungLV\\Project\\AllBasicCSharp\\wpf helloword\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{92BDCF0E-60EC-4914-AD00-CEFD015F68FB}|WPF HelloWord\\WPF HelloWord.csproj|solutionrelative:wpf helloword\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B687C531-3CCA-4D1C-9F11-AEE8D4841863}|WPFMVVM\\WPFMVVM.csproj|D:\\TungLV\\Project\\AllBasicCSharp\\wpfmvvm\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{B687C531-3CCA-4D1C-9F11-AEE8D4841863}|WPFMVVM\\WPFMVVM.csproj|solutionrelative:wpfmvvm\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B687C531-3CCA-4D1C-9F11-AEE8D4841863}|WPFMVVM\\WPFMVVM.csproj|D:\\TungLV\\Project\\AllBasicCSharp\\wpfmvvm\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B687C531-3CCA-4D1C-9F11-AEE8D4841863}|WPFMVVM\\WPFMVVM.csproj|solutionrelative:wpfmvvm\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27804217-8125-4190-BC22-AA5429BBB6D0}|Winform\\Winform.csproj|d:\\tunglv\\project\\allbasiccsharp\\winform\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,23 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Winform",
-              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\Winform\\Winform.csproj",
-              "RelativeDocumentMoniker": "Winform\\Winform.csproj",
-              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\Winform\\Winform.csproj",
-              "RelativeToolTip": "Winform\\Winform.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-02T08:22:11.698Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -74,97 +36,35 @@
               "RelativeDocumentMoniker": "Winform\\App.config",
               "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\Winform\\App.config",
               "RelativeToolTip": "Winform\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-02T07:34:46.205Z",
+              "WhenOpened": "2024-12-03T06:52:24.379Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\Winform\\Form1.cs",
-              "RelativeDocumentMoniker": "Winform\\Form1.cs",
-              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\Winform\\Form1.cs",
-              "RelativeToolTip": "Winform\\Form1.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAA5wCAAAAAAAAAA",
+              "Title": "Main.cs",
+              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\Winform\\Main.cs",
+              "RelativeDocumentMoniker": "Winform\\Main.cs",
+              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\Winform\\Main.cs",
+              "RelativeToolTip": "Winform\\Main.cs",
+              "ViewState": "AQIAAAwBAAAAAAAAAAAEwCkBAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T02:41:34.685Z",
+              "WhenOpened": "2024-12-03T04:59:55.811Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\Winform\\Form1.cs",
-              "RelativeDocumentMoniker": "Winform\\Form1.cs",
-              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\Winform\\Form1.cs [Design]",
-              "RelativeToolTip": "Winform\\Form1.cs [Design]",
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\Winform\\Main.cs",
+              "RelativeDocumentMoniker": "Winform\\Main.cs",
+              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\Winform\\Main.cs [Design]",
+              "RelativeToolTip": "Winform\\Main.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T02:35:35.544Z",
+              "WhenOpened": "2024-12-03T04:57:45.668Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "WPF HelloWord\\MainWindow.xaml",
-              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\MainWindow.xaml",
-              "RelativeToolTip": "WPF HelloWord\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-02T02:34:38.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WPF HelloWord.csproj",
-              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\WPF HelloWord.csproj",
-              "RelativeDocumentMoniker": "WPF HelloWord\\WPF HelloWord.csproj",
-              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\WPF HelloWord.csproj",
-              "RelativeToolTip": "WPF HelloWord\\WPF HelloWord.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-02T02:34:34.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPFMVVM\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WPFMVVM\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPFMVVM\\MainWindow.xaml.cs",
-              "RelativeToolTip": "WPFMVVM\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T09:04:27.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPFMVVM\\App.xaml",
-              "RelativeDocumentMoniker": "WPFMVVM\\App.xaml",
-              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPFMVVM\\App.xaml",
-              "RelativeToolTip": "WPFMVVM\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-22T08:47:02.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\WPFMVVM\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "WPFMVVM\\MainWindow.xaml",
-              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\WPFMVVM\\MainWindow.xaml",
-              "RelativeToolTip": "WPFMVVM\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-22T08:40:26.137Z",
-              "EditorCaption": ""
             }
           ]
         }
