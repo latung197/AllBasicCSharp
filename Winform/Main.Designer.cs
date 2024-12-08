@@ -52,6 +52,9 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.ckbImgBackground = new System.Windows.Forms.CheckBox();
+            this.btnImgBackground = new System.Windows.Forms.Button();
+            this.txtPathImgBackground = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.nbrHightBackgroud)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nbrWidthBackgroud)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nbrWidthImg)).BeginInit();
@@ -72,14 +75,14 @@
             // 
             // txtPathExcel
             // 
-            this.txtPathExcel.Location = new System.Drawing.Point(27, 128);
+            this.txtPathExcel.Location = new System.Drawing.Point(27, 160);
             this.txtPathExcel.Name = "txtPathExcel";
             this.txtPathExcel.Size = new System.Drawing.Size(319, 20);
             this.txtPathExcel.TabIndex = 2;
             // 
             // btnPathExcel
             // 
-            this.btnPathExcel.Location = new System.Drawing.Point(361, 125);
+            this.btnPathExcel.Location = new System.Drawing.Point(352, 160);
             this.btnPathExcel.Name = "btnPathExcel";
             this.btnPathExcel.Size = new System.Drawing.Size(136, 23);
             this.btnPathExcel.TabIndex = 3;
@@ -89,21 +92,21 @@
             // 
             // txtPathInput
             // 
-            this.txtPathInput.Location = new System.Drawing.Point(27, 182);
+            this.txtPathInput.Location = new System.Drawing.Point(27, 195);
             this.txtPathInput.Name = "txtPathInput";
             this.txtPathInput.Size = new System.Drawing.Size(319, 20);
             this.txtPathInput.TabIndex = 4;
             // 
             // txtPathOutput
             // 
-            this.txtPathOutput.Location = new System.Drawing.Point(27, 240);
+            this.txtPathOutput.Location = new System.Drawing.Point(27, 228);
             this.txtPathOutput.Name = "txtPathOutput";
             this.txtPathOutput.Size = new System.Drawing.Size(319, 20);
             this.txtPathOutput.TabIndex = 5;
             // 
             // btnPathImageInput
             // 
-            this.btnPathImageInput.Location = new System.Drawing.Point(361, 182);
+            this.btnPathImageInput.Location = new System.Drawing.Point(352, 195);
             this.btnPathImageInput.Name = "btnPathImageInput";
             this.btnPathImageInput.Size = new System.Drawing.Size(136, 23);
             this.btnPathImageInput.TabIndex = 6;
@@ -113,7 +116,7 @@
             // 
             // btnPathImageOutput
             // 
-            this.btnPathImageOutput.Location = new System.Drawing.Point(361, 237);
+            this.btnPathImageOutput.Location = new System.Drawing.Point(352, 228);
             this.btnPathImageOutput.Name = "btnPathImageOutput";
             this.btnPathImageOutput.Size = new System.Drawing.Size(136, 23);
             this.btnPathImageOutput.TabIndex = 7;
@@ -297,11 +300,41 @@
             this.label8.TabIndex = 24;
             this.label8.Text = "Width";
             // 
+            // ckbImgBackground
+            // 
+            this.ckbImgBackground.AutoSize = true;
+            this.ckbImgBackground.Location = new System.Drawing.Point(340, 64);
+            this.ckbImgBackground.Name = "ckbImgBackground";
+            this.ckbImgBackground.Size = new System.Drawing.Size(104, 17);
+            this.ckbImgBackground.TabIndex = 25;
+            this.ckbImgBackground.Text = "Lấy ảnh làm nền";
+            this.ckbImgBackground.UseVisualStyleBackColor = true;
+            // 
+            // btnImgBackground
+            // 
+            this.btnImgBackground.Location = new System.Drawing.Point(352, 126);
+            this.btnImgBackground.Name = "btnImgBackground";
+            this.btnImgBackground.Size = new System.Drawing.Size(136, 23);
+            this.btnImgBackground.TabIndex = 27;
+            this.btnImgBackground.Text = "Ảnh nền";
+            this.btnImgBackground.UseVisualStyleBackColor = true;
+            this.btnImgBackground.Click += new System.EventHandler(this.btnImgBackground_Click);
+            // 
+            // txtPathImgBackground
+            // 
+            this.txtPathImgBackground.Location = new System.Drawing.Point(27, 126);
+            this.txtPathImgBackground.Name = "txtPathImgBackground";
+            this.txtPathImgBackground.Size = new System.Drawing.Size(319, 20);
+            this.txtPathImgBackground.TabIndex = 26;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1135, 517);
+            this.Controls.Add(this.btnImgBackground);
+            this.Controls.Add(this.txtPathImgBackground);
+            this.Controls.Add(this.ckbImgBackground);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -364,6 +397,9 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.CheckBox ckbImgBackground;
+        private System.Windows.Forms.Button btnImgBackground;
+        private System.Windows.Forms.TextBox txtPathImgBackground;
     }
 }
 

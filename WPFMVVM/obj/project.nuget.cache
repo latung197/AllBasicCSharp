@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "gWqDA8tnq0xn7E0nAktUBTyyMoWLodwI0VVSurJY2cBJ5ScWPg/sYlh0iBOLH3n+7CgaA3XlW6U5ix86TLgcbQ==",
+  "dgSpecHash": "782SOTXE/i4=",
   "success": true,
-  "projectFilePath": "D:\\TungLV\\Project\\AllBasicCSharp\\WPFMVVM\\WPFMVVM.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Project\\AllBasicCSharp\\WPFMVVM\\WPFMVVM.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tung\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Tung\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Tung\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Tung\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -19,12 +19,16 @@ namespace Winform
         private string excelFilePath;
         private string imagesDirectory;
         private string outputDirectory;
+        private string imgBackgroundFilePath;
         private int newWidth = 0;
         private int newHeight = 0;
         private int resizedWidth = 0;
         private int resizedHeight = 0;
         private int numberWordTitle = 0;
         private int numberWordContent = 0;
+
+        private Image selectedImage;
+
 
         public Main()
         {
@@ -36,6 +40,7 @@ namespace Winform
             excelFilePath = ConfigurationManager.AppSettings["ExcelFilePath"];
             imagesDirectory = ConfigurationManager.AppSettings["ImagesDirectory"];
             outputDirectory = ConfigurationManager.AppSettings["OutputDirectory"];
+            imgBackgroundFilePath = ConfigurationManager.AppSettings["imgBackgroundFilePath"];
 
             newWidth = int.Parse(ConfigurationManager.AppSettings["newWidth"]);
             newHeight = int.Parse(ConfigurationManager.AppSettings["newHeight"]);
@@ -50,6 +55,7 @@ namespace Winform
             txtPathExcel.Text = excelFilePath;
             txtPathInput.Text = imagesDirectory;
             txtPathOutput.Text = outputDirectory;
+            txtPathImgBackground.Text = imgBackgroundFilePath;
             nbrLineContent.Value = numberWordContent;
             nbrLineTitle.Value = numberWordTitle;
         }
@@ -60,17 +66,20 @@ namespace Winform
             config.AppSettings.Settings["ExcelFilePath"].Value = excelFilePath;
             config.AppSettings.Settings["ImagesDirectory"].Value = imagesDirectory;
             config.AppSettings.Settings["OutputDirectory"].Value = outputDirectory;
+            config.AppSettings.Settings["imgBackgroundFilePath"].Value = imgBackgroundFilePath;
 
             config.AppSettings.Settings["newWidth"].Value = newWidth.ToString();
             config.AppSettings.Settings["newHeight"].Value = newHeight.ToString();
             config.AppSettings.Settings["resizedWidth"].Value = resizedWidth.ToString();
             config.AppSettings.Settings["resizedHeight"].Value = resizedHeight.ToString();
+            config.AppSettings.Settings["numberWordTitle"].Value = numberWordTitle.ToString();
+            config.AppSettings.Settings["numberWordContent"].Value = numberWordContent.ToString();
 
             config.Save(ConfigurationSaveMode.Modified);
             ConfigurationManager.RefreshSection("appSettings");
         }
 
-        public void ProcessImage(string inputPathImg, string outPutPathImg, string textTop, string textButton)
+        public void ProcessImage(string inputPathImg, string outPutPathImg, string textTop, string textButton, string imgBackgroundFilePath)
         {
 
             textTop = WordWrap(textTop, numberWordTitle);
@@ -80,7 +89,21 @@ namespace Winform
             // Tạo ảnh nền mới với kích thước 1920 x 1080
             Bitmap newImage = new Bitmap(newWidth, newHeight);
             // Tạo ảnh nền mới với kích thước 1920 x 1080
-            using (Graphics graphics = Graphics.FromImage(newImage))
+            Bitmap finalImg;
+
+            selectedImage = Image.FromFile(imgBackgroundFilePath);
+
+            if (ckbImgBackground.Checked)
+            {
+
+                finalImg = new Bitmap(selectedImage, new Size(1080, 1920));
+            }
+            else
+            {
+                finalImg = newImage;
+            }
+
+            using (Graphics graphics = Graphics.FromImage(finalImg))
             { // Tô màu nền (ở đây là màu đen)
                 graphics.Clear(Color.Black);
                 // Tính toán vị trí để đặt ảnh gốc vào giữa nền
@@ -118,7 +141,8 @@ namespace Winform
                 }
             }
             // Lưu ảnh đã ghép
-            newImage.Save(outPutPathImg);
+            finalImg.Save(outPutPathImg);
+
         }
 
         static string WordWrap(string input, int wordsPerLine)
@@ -152,7 +176,7 @@ namespace Winform
 
         private async void btnCreateImage(object sender, EventArgs e)
         {
-
+            SaveSettings();
             if (!Directory.Exists(outputDirectory))
             {
                 Directory.CreateDirectory(outputDirectory);
@@ -170,7 +194,7 @@ namespace Winform
                 prbTienTrinh.Maximum = totalRows - 1; // Cập nhật giá trị tối đa của thanh tiến trình
                 prbTienTrinh.Value = 0;
 
-                while (!worksheet.Cell(row, 1).IsEmpty())
+                while (!worksheet.Cell(row, 3).IsEmpty())
                 {
                     string topText = worksheet.Cell(row, 1).GetValue<string>();
                     string bottomText = worksheet.Cell(row, 2).GetValue<string>();
@@ -178,7 +202,7 @@ namespace Winform
                     string outputPath = Path.Combine(outputDirectory, $"output_image_{row}.jpg");
 
                     // Xử lý ảnh
-                    await Task.Run(() => ProcessImage(imagePath, outputPath, topText, bottomText));
+                    await Task.Run(() => ProcessImage(imagePath, outputPath, topText, bottomText, txtPathImgBackground.Text));
                     prbTienTrinh.Value = row - 1;
                     // Tải ảnh lên Google Drive
                     //UploadToGoogleDrive(outputPath);
@@ -188,8 +212,8 @@ namespace Winform
 
                 LoadAndDisplayImages(outputDirectory);
 
-                MessageBox.Show("Excel template created successfully!", "Success", MessageBoxButtons.OK);
-                prbTienTrinh.Value = 0;
+                //MessageBox.Show("Excel template created successfully!", "Success", MessageBoxButtons.OK);
+                //prbTienTrinh.Value = 0;
 
             }
         }
@@ -230,7 +254,7 @@ namespace Winform
                     worksheet.Cell(1, 3).Value = "Tên ảnh";
                     workbook.SaveAs(saveFileDialog.FileName);
                 }
-                MessageBox.Show("Excel template created successfully!", "Success", MessageBoxButtons.OK);
+                // MessageBox.Show("Excel template created successfully!", "Success", MessageBoxButtons.OK);
             }
         }
 
@@ -297,6 +321,21 @@ namespace Winform
         private void nbrLineContent_Validated(object sender, EventArgs e)
         {
             numberWordContent = int.Parse(nbrLineContent.Value.ToString());
+        }
+
+        private void btnImgBackground_Click(object sender, EventArgs e)
+        {
+            using (OpenFileDialog openFileDialog = new OpenFileDialog())
+            {
+                openFileDialog.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp";
+                if (openFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    selectedImage = Image.FromFile(openFileDialog.FileName);
+                    txtPathImgBackground.Text = openFileDialog.FileName;
+                    imgBackgroundFilePath = openFileDialog.FileName;
+                    SaveSettings();
+                }
+            }
         }
     }
 }
