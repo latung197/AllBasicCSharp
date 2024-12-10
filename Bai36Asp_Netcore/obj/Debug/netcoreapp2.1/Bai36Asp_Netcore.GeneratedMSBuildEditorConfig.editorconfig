@@ -1,8 +1,5 @@
 is_global = true
 build_property.RootNamespace = Bai36Asp_Netcore
-build_property.ProjectDir = D:\Project\AllBasicCSharp\Bai36Asp_Netcore\
+build_property.ProjectDir = D:\TungLV\Project\AllBasicCSharp\Bai36Asp_Netcore\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.CsWinRTUseWindowsUIXamlProjections = false
-build_property.EffectiveAnalysisLevelStyle = 
-build_property.EnableCodeStyleSeverity = 

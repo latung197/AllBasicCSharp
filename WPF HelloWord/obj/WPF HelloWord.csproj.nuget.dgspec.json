@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\AllBasicCSharp\\WPF HelloWord\\WPF HelloWord.csproj": {}
+    "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\WPF HelloWord.csproj": {}
   },
   "projects": {
-    "D:\\Project\\AllBasicCSharp\\WPF HelloWord\\WPF HelloWord.csproj": {
+    "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\WPF HelloWord.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\AllBasicCSharp\\WPF HelloWord\\WPF HelloWord.csproj",
+        "projectUniqueName": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\WPF HelloWord.csproj",
         "projectName": "WPF HelloWord",
-        "projectPath": "D:\\Project\\AllBasicCSharp\\WPF HelloWord\\WPF HelloWord.csproj",
-        "packagesPath": "C:\\Users\\Tung\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\AllBasicCSharp\\WPF HelloWord\\obj\\",
+        "projectPath": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\WPF HelloWord.csproj",
+        "packagesPath": "C:\\Users\\RFVNPC\\.nuget\\packages\\",
+        "outputPath": "D:\\TungLV\\Project\\AllBasicCSharp\\WPF HelloWord\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Tung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\RFVNPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,9 +43,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net6.0-windows7.0": {
@@ -60,24 +60,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -86,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

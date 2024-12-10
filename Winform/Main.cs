@@ -89,14 +89,21 @@ namespace Winform
             // Tạo ảnh nền mới với kích thước 1920 x 1080
             Bitmap newImage = new Bitmap(newWidth, newHeight);
             // Tạo ảnh nền mới với kích thước 1920 x 1080
-            Bitmap finalImg;
+            Bitmap finalImg = null;
 
-            selectedImage = Image.FromFile(imgBackgroundFilePath);
 
             if (ckbImgBackground.Checked)
             {
+                if(txtPathImgBackground.Text!= "")
+                {
+                    selectedImage = Image.FromFile(txtPathImgBackground.Text);
+                    finalImg = new Bitmap(selectedImage, new Size(1080, 1920));
+                }
+                else
+                {
+                    return;
+                }
 
-                finalImg = new Bitmap(selectedImage, new Size(1080, 1920));
             }
             else
             {
@@ -104,15 +111,21 @@ namespace Winform
             }
 
             using (Graphics graphics = Graphics.FromImage(finalImg))
-            { // Tô màu nền (ở đây là màu đen)
-                graphics.Clear(Color.Black);
+            {   // Tô màu nền (ở đây là màu đen)
+                if (!ckbImgBackground.Checked)
+                {
+                    graphics.Clear(Color.Black);
+                }
                 // Tính toán vị trí để đặt ảnh gốc vào giữa nền
                 int x = (newWidth - resizedWidth) / 2;
                 int y = (newHeight - resizedHeight) / 2;
                 // Vẽ ảnh gốc đã được co lại lên ảnh nền mới
-                graphics.DrawImage(originalImage, x, y, resizedWidth, resizedHeight);
+                if (!ckbImgBackground.Checked)
+                {
+                    graphics.DrawImage(originalImage, x, y, resizedWidth, resizedHeight);
+                }
                 // Thiết lập thông tin chữ
-                Font font = new Font("Arial", 65);
+                Font font = new Font("Arial", 65, FontStyle.Bold, GraphicsUnit.Pixel);
                 Brush brush = new SolidBrush(Color.White);
 
                 // Căn giữa và vẽ chữ trên theo từng dòng
@@ -181,12 +194,20 @@ namespace Winform
             {
                 Directory.CreateDirectory(outputDirectory);
             }
+            if (ckbImgBackground.Checked)
+            {
+                if(txtPathImgBackground.Text.Length == 0)
+                {
+                    MessageBox.Show("Chọn ảnh nền!");
+                    return;
+                }
+            }
 
             // Đọc nội dung từ file Excel
             using (var workbook = new XLWorkbook(excelFilePath))
             {
-                var worksheet = workbook.Worksheet(1);
 
+                var worksheet = workbook.Worksheet(1);
                 // Duyệt qua các hàng trong file Excel
                 int row = 2;
 
@@ -194,7 +215,7 @@ namespace Winform
                 prbTienTrinh.Maximum = totalRows - 1; // Cập nhật giá trị tối đa của thanh tiến trình
                 prbTienTrinh.Value = 0;
 
-                while (!worksheet.Cell(row, 3).IsEmpty())
+                while (!worksheet.Cell(row, 3).IsEmpty() || !worksheet.Cell(row, 2).IsEmpty()|| !worksheet.Cell(row, 1).IsEmpty())
                 {
                     string topText = worksheet.Cell(row, 1).GetValue<string>();
                     string bottomText = worksheet.Cell(row, 2).GetValue<string>();
@@ -330,9 +351,8 @@ namespace Winform
                 openFileDialog.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp";
                 if (openFileDialog.ShowDialog() == DialogResult.OK)
                 {
-                    selectedImage = Image.FromFile(openFileDialog.FileName);
-                    txtPathImgBackground.Text = openFileDialog.FileName;
                     imgBackgroundFilePath = openFileDialog.FileName;
+                    txtPathImgBackground.Text = openFileDialog.FileName;
                     SaveSettings();
                 }
             }
