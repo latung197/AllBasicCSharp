@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\TungLV\\Project\\AllBasicCSharp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CEA182BF-6626-44F7-A05F-84D29057CB7A}|ReadTextInImg\\ReadTextInImg.csproj|d:\\tunglv\\project\\allbasiccsharp\\readtextinimg\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA182BF-6626-44F7-A05F-84D29057CB7A}|ReadTextInImg\\ReadTextInImg.csproj|solutionrelative:readtextinimg\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{27804217-8125-4190-BC22-AA5429BBB6D0}|Winform\\Winform.csproj|d:\\tunglv\\project\\allbasiccsharp\\winform\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27804217-8125-4190-BC22-AA5429BBB6D0}|Winform\\Winform.csproj|solutionrelative:winform\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27804217-8125-4190-BC22-AA5429BBB6D0}|Winform\\Winform.csproj|D:\\TungLV\\Project\\AllBasicCSharp\\winform\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{27804217-8125-4190-BC22-AA5429BBB6D0}|Winform\\Winform.csproj|solutionrelative:winform\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA182BF-6626-44F7-A05F-84D29057CB7A}|ReadTextInImg\\ReadTextInImg.csproj|d:\\tunglv\\project\\allbasiccsharp\\readtextinimg\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEA182BF-6626-44F7-A05F-84D29057CB7A}|ReadTextInImg\\ReadTextInImg.csproj|solutionrelative:readtextinimg\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27804217-8125-4190-BC22-AA5429BBB6D0}|Winform\\Winform.csproj|D:\\TungLV\\Project\\AllBasicCSharp\\winform\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,32 +38,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\ReadTextInImg\\Form1.cs",
+              "RelativeDocumentMoniker": "ReadTextInImg\\Form1.cs",
+              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\ReadTextInImg\\Form1.cs",
+              "RelativeToolTip": "ReadTextInImg\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T09:06:49.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\ReadTextInImg\\Form1.cs",
+              "RelativeDocumentMoniker": "ReadTextInImg\\Form1.cs",
+              "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\ReadTextInImg\\Form1.cs [Design]",
+              "RelativeToolTip": "ReadTextInImg\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T09:06:28.526Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "App.config",
               "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\Winform\\App.config",
               "RelativeDocumentMoniker": "Winform\\App.config",
               "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\Winform\\App.config",
               "RelativeToolTip": "Winform\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-03T06:52:24.379Z"
+              "WhenOpened": "2024-12-03T06:52:24.379Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Main.cs",
               "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\Winform\\Main.cs",
               "RelativeDocumentMoniker": "Winform\\Main.cs",
               "ToolTip": "D:\\TungLV\\Project\\AllBasicCSharp\\Winform\\Main.cs",
               "RelativeToolTip": "Winform\\Main.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAwwE8AAAAJAAAA",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAwwG0AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T04:59:55.811Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Main.cs [Design]",
               "DocumentMoniker": "D:\\TungLV\\Project\\AllBasicCSharp\\Winform\\Main.cs",
               "RelativeDocumentMoniker": "Winform\\Main.cs",
