@@ -94,6 +94,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFMVVM", "WPFMVVM\WPFMVVM.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadTextInImg", "ReadTextInImg\ReadTextInImg.csproj", "{CEA182BF-6626-44F7-A05F-84D29057CB7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateUpdate", "CreateUpdate\CreateUpdate.csproj", "{6EB98612-5045-4D26-BE3A-F6BBA87DF285}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -276,6 +278,10 @@ Global
 		{CEA182BF-6626-44F7-A05F-84D29057CB7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEA182BF-6626-44F7-A05F-84D29057CB7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEA182BF-6626-44F7-A05F-84D29057CB7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EB98612-5045-4D26-BE3A-F6BBA87DF285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB98612-5045-4D26-BE3A-F6BBA87DF285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB98612-5045-4D26-BE3A-F6BBA87DF285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB98612-5045-4D26-BE3A-F6BBA87DF285}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

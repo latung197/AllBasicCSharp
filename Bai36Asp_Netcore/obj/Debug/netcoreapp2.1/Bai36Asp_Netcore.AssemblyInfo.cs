@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bai36Asp_Netcore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f84201e66999fc5e2c6a22e93a4be9a9f9c484fe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+431468e88a7f13bf3a7e0cf75517c597956d79b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bai36Asp_Netcore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bai36Asp_Netcore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
